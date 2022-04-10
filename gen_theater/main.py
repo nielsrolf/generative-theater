@@ -2,11 +2,10 @@ from glob import glob
 import os
 from typing import List
 import nlpcloud
+import deepl 
 
+from gen_theater import secrets
 
-
-story_in = "story"
-story_out = "media/1"
 
 
 class Part:
@@ -30,25 +29,26 @@ class Part:
 
 def fill_template_gpt(parts: List[Part]) -> List[Part]:
     """Replace <generate> with generated text from GPT"""
-    client = nlpcloud.Client("fast-gpt-j", KEY, True)
+    client = nlpcloud.Client("gpt-neox-20b", secrets.NLPCLOUD, True)
     for i, part in enumerate(parts):
         if part.text == "<generate>":
             prompt = create_prompt(parts[:i + 1])
+            print(f"PROMPT: {prompt}", end="\n" + "-" * 80 + "\n")
             part.text = client.generation(prompt,
                 min_length=10,
                 max_length=50,
-                length_no_input=False,
+                length_no_input=True,
                 remove_input=True,
                 end_sequence="\n",
                 top_p=1,
-                temperature=0.8,
+                temperature=1,
                 top_k=50,
-                repetition_penalty=1,
+                repetition_penalty=2,
                 length_penalty=1,
                 do_sample=True,
                 early_stopping=False,
                 num_beams=1,
-                no_repeat_ngram_size=0,
+                no_repeat_ngram_size=3,
                 num_return_sequences=1,
                 bad_words=None,
                 remove_end_sequence=False
@@ -101,7 +101,25 @@ def generate_chapter(story_file, output):
     with open(story_file, "r") as f:
         parts = [Part(i) for i in f.readlines()]
     parts = fill_template_gpt(parts)
-    print("\n".join(str(i) for i in parts))
+    chapter = "\n".join(str(i) for i in parts)
+    chapter_de = translate(chapter)
+    print(chapter_de)
+
+
+def translate(text: str, lang: str = "DE") -> str:
+    """Translate text using deepl
+    
+    Arguments:
+        text {str} -- text to translate
+        lang {str} -- language to translate to
+    
+    Returns:
+        translated_text {str} -- translated text
+    """
+    translator = deepl.Translator(secrets.DEEPL) 
+    result = translator.translate_text(text, target_lang=lang) 
+    translated_text = result.text
+    return translated_text
 
 
 def main(story_in: str, story_out: str):
