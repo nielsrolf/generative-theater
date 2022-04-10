@@ -169,9 +169,9 @@ def text_to_media(parts, play, generate_all, target):
                 if not play:
                     actor_dir = f"{target}/{part.actor}"
                     filename = os.path.join(actor_dir, f"/{i + 1}.mp3")
-                    os.system(f"say -v {part.voice} -o {filename} {part.text}")
+                    os.system(f"say -v {part.voice} -o {filename} {part.actor}: {part.text}")
                 else:
-                    os.system(f"say -v {part.voice} {part.text}")
+                    os.system(f"say -v {part.voice} {part.actor}: {part.text}")
     
 
 @click.command()
