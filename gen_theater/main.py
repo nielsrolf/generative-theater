@@ -3,6 +3,7 @@ import os
 from typing import List
 import nlpcloud
 import deepl 
+import click
 
 from gen_theater import secrets
 
@@ -121,18 +122,26 @@ def translate(text: str, lang: str = "DE") -> str:
     translated_text = result.text
     return translated_text
 
-
-def main(story_in: str, story_out: str):
+@click.command()
+@click.argument("story_template", type=click.Path(exists=True))
+@click.argument("story_out", type=click.Path())
+@click.option("--play", is_flag=True, help="auto-play the generated media")
+@click.option("--generate_all", is_flag=True,
+            help=" whether to generate all media or just the new ones (<generate> replacements)")
+def main(story_template: str, story_out: str, play: bool = False, generate_all: bool = True):
     """Iterate through all chapter and generate media
     
     Arguments:
-        story_in -- path to the dir with the template story
+        story_template -- path to the dir with the template story
         story_out -- path to the dir where the generated media will be stored
+        play -- whether to auto-play the generated media
+        generate_all -- whether to generate all media or just the new ones
+            (<generate> replacements)
     """
     os.makedirs(story_out, exist_ok=True)
-    for chapter in glob(f"{story_in}/*.txt"):
-        generate_chapter(chapter, chapter.replace(story_in, story_out))
+    for chapter in glob(f"{story_template}/*.txt"):
+        generate_chapter(chapter, chapter.replace(story_template, story_out))
 
 
 if __name__ == "__main__":
-    main("story", "media")
+    main()
