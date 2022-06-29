@@ -1,12 +1,27 @@
-Context (text): This theater play is about Luzia, Kriemhild and Marin, who become friends after talking to each other on a hike through the desert, but later start fighting over trivial things and end up hating each other passionately. In this section, they are starting to fight for the first time. They found out yesterday that both are here for the same reason: to escape the feeling of having a meaningless life. Now they are waking up.
-Stage directions (text): Luzia and Maren are waking up next to a camping fire.
-Luzia (audio): Good morning!
-Marin (audio): Good morning, did you sleep well?
-Luzia (audio):  <generate>
-Kriemhild (audio):  <generate>
-Luzia (audio):  <generate>
-Marin (audio):  <generate>
-Luzia (audio):  <generate>
-Kriemhild (audio):  <generate>
-Luzia (audio):  <generate>
-Marin (audio):  <generate>
+Context (video): This theater play is about Luzia, Kriemhild and Marin, who become friends after talking to each other on a hike through the desert, but later start fighting over trivial things and end up hating each other passionately. In this section, they are starting to fight for the first time. They found out yesterday that all are here for the same reason: to escape the feeling of having a meaningless life. Now they are waking up - everyone is a bit annoyed but Kriemhild is extremely aggressive.
+Stage directions (text): Luzia, Kriemhild and Maren are waking up next to a camping fire.
+Luzia (audio): Hey
+Marin (audio): <generate>
+Luzia (audio): <generate>
+Kriemhild (audio): <generate>
+Luzia (audio): <generate>
+Marin (audio): <generate>
+Luzia (audio): <generate>
+Kriemhild (audio): <generate>
+Luzia (audio): <generate>
+Marin (audio): <generate>
+Kriemhild (audio): <generate>
+Luzia (audio): <generate>
+Marin (audio): <generate>
+Kriemhild (audio): <generate>
+Luzia (audio): <generate>
+Marin (audio): <generate>
+Kriemhild (audio): <generate>
+Luzia (audio): <generate>
+Marin (audio): <generate>
+Kriemhild (audio): <generate>
+Luzia (audio): <generate>
+Marin (audio): <generate>
+Kriemhild (audio): <generate>
+Luzia (audio): <generate>
+Marin (audio): <generate>

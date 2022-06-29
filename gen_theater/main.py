@@ -13,6 +13,11 @@ from tqdm import tqdm
 from gen_theater import secrets
 
 
+def system(prompt):
+    print(prompt)
+    os.system(prompt)
+
+
 voices = {
     "Luzia": "Anna",
     "Marin": "Markus",
@@ -192,17 +197,19 @@ def text_to_media(parts, play, generate_all, target):
         generate_all {bool} -- whether to generate all media
     """
     for i, part in tqdm(enumerate(parts)):
+        next_actor = parts[i + 1].actor if i < len(parts) - 1 else "Ende"
         if not (part.generated or generate_all):
             continue
         if part.media == "audio":
             print(part.actor)
+            text = part.text.replace("'", "")
             if part.generated or generate_all:
                 if not play:
                     actor_dir = f"{target}/{part.actor}"
                     filename = os.path.join(actor_dir, f"/{i + 1}.mp3")
-                    os.system(f"say -v {part.voice} -o {filename} {part.actor}: {part.text}")
+                    system(f"say -v {part.voice} -o {filename} '{part.actor} zu {next_actor}: {text}'")
                 else:
-                    os.system(f"say -v {part.voice} {part.actor}: {part.text}")
+                    system(f"say -v {part.voice} '{part.actor} zu {next_actor}: {text}'")
     
 
 @click.command()
