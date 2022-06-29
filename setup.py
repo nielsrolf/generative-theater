@@ -9,7 +9,7 @@ setup(
     packages=find_packages(),
     package_data={},
     scripts=[],
-    install_requires=["click", "nlpcloud", "deepl"],
+    install_requires=["click", "nlpcloud", "deepl", "openai"],
     extras_require={
         "test": ["pytest", "pylint!=2.5.0", "black", "mypy", "flake8", "pytest-cov"],
     },

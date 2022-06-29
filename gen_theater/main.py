@@ -4,16 +4,19 @@ import os
 from typing import List
 from xmlrpc.client import boolean
 import nlpcloud
+import openai
 import deepl 
 import click
+from tqdm import tqdm
+
 
 from gen_theater import secrets
 
 
 voices = {
     "Luzia": "Anna",
-    # "Marin": "Markus",
-    # "Kriemhild": "Yannick"
+    "Marin": "Markus",
+    "Kriemhild": "Yannick"
 }
 
 @dataclass
@@ -41,6 +44,9 @@ class Part:
         return Part(raw, actor, media, text, False, voices.get(actor, "Anna"))
     
     def __str__(self):
+        return f"{self.actor} ({self.media}): {self.text}"
+    
+    def shortstr(self):
         return f"{self.actor}: {self.text}"
     
     def translate(self):
@@ -48,34 +54,58 @@ class Part:
         return Part(self.raw, self.actor, self.media, text_de, self.generated, self.voice)
 
 
-def fill_template_gpt(parts: List[Part]) -> List[Part]:
+# def fill_template_gpt(parts: List[Part]) -> List[Part]:
+#     """Replace <generate> with generated text from GPT"""
+#     client = nlpcloud.Client("gpt-neox-20b", secrets.NLPCLOUD, True)
+#     # client = nlpcloud.Client("fast-gpt-j", secrets.NLPCLOUD, True)
+#     story = []
+#     for i, part in enumerate(parts):
+#         if part.text == "<generate>":
+#             prompt = create_prompt(story + [part])
+#             print(f"PROMPT: {prompt}", end="\n" + "-" * 80 + "\n")
+#             text = client.generation(prompt,
+#                 min_length=10,
+#                 max_length=50,
+#                 length_no_input=True,
+#                 remove_input=True,
+#                 end_sequence="\n",
+#                 top_p=1,
+#                 temperature=1,
+#                 top_k=50,
+#                 repetition_penalty=2,
+#                 length_penalty=1,
+#                 do_sample=True,
+#                 early_stopping=False,
+#                 num_beams=1,
+#                 no_repeat_ngram_size=3,
+#                 num_return_sequences=1,
+#                 bad_words=None,
+#                 remove_end_sequence=False
+#             )['generated_text'].strip()
+#             story.append(Part(part.raw, part.actor, part.media, text, True, part.voice))
+#         else:
+#             story.append(part)
+#     return story
+
+
+def fill_template_gpt3(parts: List[Part]) -> List[Part]:
     """Replace <generate> with generated text from GPT"""
-    # client = nlpcloud.Client("gpt-neox-20b", secrets.NLPCLOUD, True)
-    client = nlpcloud.Client("fast-gpt-j", secrets.NLPCLOUD, True)
+    openai.api_key = os.getenv("OPENAI_API_KEY")
     story = []
     for i, part in enumerate(parts):
         if part.text == "<generate>":
             prompt = create_prompt(story + [part])
             print(f"PROMPT: {prompt}", end="\n" + "-" * 80 + "\n")
-            text = client.generation(prompt,
-                min_length=10,
-                max_length=50,
-                length_no_input=True,
-                remove_input=True,
-                end_sequence="\n",
+            response = openai.Completion.create(
+                model="davinci",
+                prompt=prompt,
+                temperature=0.7,
+                max_tokens=256,
                 top_p=1,
-                temperature=1,
-                top_k=50,
-                repetition_penalty=2,
-                length_penalty=1,
-                do_sample=True,
-                early_stopping=False,
-                num_beams=1,
-                no_repeat_ngram_size=3,
-                num_return_sequences=1,
-                bad_words=None,
-                remove_end_sequence=False
-            )['generated_text'].strip()
+                frequency_penalty=0,
+                presence_penalty=0
+            )
+            text = response.choices[0].text.split("\n")[0]
             story.append(Part(part.raw, part.actor, part.media, text, True, part.voice))
         else:
             story.append(part)
@@ -93,9 +123,10 @@ def create_prompt(parts: List[Part]) -> str:
     """
     prompt = ""
     for part in parts[:-1]:
-        prompt += str(part) + "\n"
+        prompt += part.shortstr() + "\n"
     prompt += f"{parts[-1].actor}:"
     return prompt
+
 
 def parse_template(story_file: str) -> List[Part]:
     """Open the story file and return a list of parts.
@@ -136,7 +167,6 @@ def translate_parts(parts: List[Part]) -> List[Part]:
     return [i.translate() for i in parts]
     
 
-
 def translate(text: str, lang: str = "DE") -> str:
     """Translate text using deepl
     
@@ -161,10 +191,11 @@ def text_to_media(parts, play, generate_all, target):
         play {bool} -- whether to play the generated media
         generate_all {bool} -- whether to generate all media
     """
-    for i, part in enumerate(parts):
+    for i, part in tqdm(enumerate(parts)):
         if not (part.generated or generate_all):
             continue
         if part.media == "audio":
+            print(part.actor)
             if part.generated or generate_all:
                 if not play:
                     actor_dir = f"{target}/{part.actor}"
@@ -177,10 +208,11 @@ def text_to_media(parts, play, generate_all, target):
 @click.command()
 @click.argument("story_template", type=click.Path(exists=True))
 @click.argument("story_out", type=click.Path())
+@click.option("--generate", is_flag=True, help="auto-play the generated media")
 @click.option("--play", is_flag=True, help="auto-play the generated media")
 @click.option("--generate_all", is_flag=True,
             help=" whether to generate all media or just the new ones (<generate> replacements)")
-def main(story_template: str, story_out: str, play: bool = False, generate_all: bool = True):
+def main(story_template: str, story_out: str, generate: bool = True, play: bool = False, generate_all: bool = True):
     """Iterate through all chapter and generate media
     
     Arguments:
@@ -190,16 +222,23 @@ def main(story_template: str, story_out: str, play: bool = False, generate_all: 
         generate_all -- whether to generate all media or just the new ones
             (<generate> replacements)
     """
+    generate = generate or generate_all
     os.makedirs(story_out, exist_ok=True)
     for chapter in glob(f"{story_template}*.txt"):
+        # breakpoint()
         target = chapter.replace(story_template, story_out).split(".txt")[0]
-        template = parse_template(chapter)
-        story = fill_template_gpt(template)
-        write_parts(story, target, "story_en.txt")
-        story_de = translate_parts(story)
-        write_parts(story_de, target, "story_de.txt")
-        text_to_media(story_de, play, generate_all, target)
+        if generate:
+            template = parse_template(chapter)
+            story = fill_template_gpt3(template)
+            write_parts(story, target, "story_en.txt")
+            story_de = translate_parts(story)
+            write_parts(story_de, target, "story_de.txt")
+            text_to_media(story_de, play, generate_all, target)
+        else:
+            story_de = parse_template(f"{target}/story_de.txt")
+            text_to_media(story_de, play, True, target)
 
 
 if __name__ == "__main__":
     main()
+  
