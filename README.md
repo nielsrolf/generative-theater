@@ -9,6 +9,8 @@ Steps to generate:
 - open the `generative-theater` folder in a terminal
 - write the story template in the `/story` folder
 - run `python3 gen_theater/main.py story/ media/ --generate_all --play`
+Abspielen:
+- `python3 gen_theater/play.py marin-camping/chapter1.txt`
 
 How it works:
 - template story is in `/story`
