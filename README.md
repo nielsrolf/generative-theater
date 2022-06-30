@@ -12,6 +12,15 @@ Steps to generate:
 Abspielen:
 - `python3 gen_theater/play.py marin-camping/chapter1.txt`
 
+Push your changes:
+```
+git add .
+git commit -m "habe eine neue version der geschichte gemacht"
+git pull
+git push
+echo done
+```
+
 How it works:
 - template story is in `/story`
 - when a new version is generated, the gaps are filled by GPT-J 20B
