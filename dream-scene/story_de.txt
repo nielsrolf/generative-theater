@@ -1,0 +1,167 @@
+Context (audio): Format Theater Drehbuch. Die Situation: Drei Personen sind an einer Feuerstelle eingeschlafen. Ihre Namen sind Luzia, Marin und Kriemhild. Sie hatten alle sehr lebhafte und merkwürdige Träume. Sie wachen auf. Als sie beginnen, sich gegenseitig von ihren Träumen der vergangenen Nacht zu erzählen, gleiten sie zurück in die Erzählung der Träume. Die drei Traumerzählungen verweben sich miteinander und stellen die Traumsituation gemeinsam nach.
+Kriemhild (audio): Guten Morgen Marin, guten Morgen Luzia. Wie habt ihr geschlafen?
+Marin (audio): Ich habe gut geschlafen, danke. Aber ich hatte den seltsamsten Traum.
+Kriemhild (audio): Wirklich? Worum ging es dabei?
+Luzia (audio): Ich auch! Ich hatte einen Traum, der so real war, dass ich mich nicht einmal mehr daran erinnern kann, worum es ging.
+Marin (audio): Nun, ich träumte, dass ich in einem dunklen Wald war und dass mich diese Kreaturen verfolgten. Es waren diese großen, pelzigen, wolfsähnlichen Kreaturen, aber sie hatten diese langen, scharfen Zähne.
+Kriemhild (audio): Wow, das klingt wirklich beängstigend.
+Luzia (audio): Ja, das war es. Ich bin froh, dass es nur ein Traum war.
+Kriemhild (audio): Haben sie dir im Traum wehgetan?
+Marin (audio): Nein, ich glaube nicht. Ich erinnere mich nicht wirklich. Aber es war einfach so real.
+Luzia (audio): Ich weiß, was du meinst. Ich hatte letzte Nacht einen Traum, der so real war, dass ich mich nicht einmal mehr daran erinnern kann, worum es ging.
+Kriemhild (audio): Wirklich? Worum ging es dabei?
+Luzia (audio): Ich weiß es nicht mehr. Ich kann mich nicht erinnern. Aber es war so real.
+Kriemhild (audio): Können Sie sich an irgendwelche Details erinnern?
+Luzia (audio): Ja, in meinem Traum ging ich durch einen Garten und sah diesen wunderschönen Schmetterling. Ich wollte ihn fangen, und als ich das tat, verwandelte er sich in eine Schlange und biss mich.
+Kriemhild (audio): Ach du meine Güte! Das muss so beängstigend gewesen sein!
+Luzia (audio): Ja, das war es. Ich bin froh, dass es nur ein Traum war.
+Marin (audio): Hey, ich habe mich gerade an etwas aus meinem Traum erinnert.
+Kriemhild (audio): Was ist das?
+Marin (audio): In meinem Traum war ich in einem dunklen Wald, und da waren diese Kreaturen, die mich verfolgten. Es waren große, pelzige, wolfsähnliche Kreaturen, aber sie hatten diese langen, scharfen Zähne.
+Kriemhild (audio): Wow, das klingt wirklich beängstigend.
+Marin (audio): Ja, das war es. Ich bin froh, dass es nur ein Traum war.
+Luzia (audio): Was ist das da drüben?
+Marin (audio): Was ist was?
+Luzia (audio): Dieses Licht. Kannst du es nicht sehen?
+Marin (audio): Ich kann nichts erkennen.
+Luzia (audio): Es ist genau da. Es ist so hell.
+Kriemhild (audio): Ich sehe es auch. Es ist so schön.
+Luzia (audio): Es ruft nach mir.
+Kriemhild (audio): Ich auch.
+Marin (audio): Wovon sprechen Sie? Ich kann nichts sehen.
+Luzia (audio): Es ist genau dort. Kannst du es nicht sehen?
+Marin (audio): Nein, ich sehe nichts.
+Luzia (audio): Es ist so hell.
+Kriemhild (audio): Es ist so schön.
+Luzia (audio): Es ruft nach mir.
+Kriemhild (audio): Ich auch.
+Marin (audio): Warte mal... Ich glaube... es ist der Wolf aus meinem Traum!
+Luzia (audio): Die Schlange aus meinem Traum!
+Kriemhild (audio): Nein, das kann nicht sein!
+Luzia (audio): Das ist es! Es kommt auf uns zu!
+Marin (audio): Lauft!
+Kriemhild (audio): Laufen Sie weiter!
+Luzia (audio): Es ist direkt hinter uns!
+Kriemhild (audio): Nein, schauen Sie nicht zurück!
+Marin (audio): Es rückt näher!
+Luzia (audio): Laufen Sie weiter!
+Kriemhild (audio): Nein, schauen Sie nicht zurück!
+Luzia (audio): Es rückt näher!
+Kriemhild (audio): Laufen Sie weiter!
+Luzia (audio): Es ist direkt hinter uns!
+Kriemhild (audio): Nein, schauen Sie nicht zurück!
+Marin (audio): Es rückt näher!
+Kriemhild (audio): Laufen Sie weiter!
+Luzia (audio): Hierher! Verstecken wir uns in dieser Höhle!
+Kriemhild (audio): Gute Idee!
+Marin (audio): Vielleicht findet sie uns hier nicht.
+Luzia (audio): Ich hoffe nicht.
+Kriemhild (audio): Pst! Ich glaube, es kommt!
+Luzia (audio): Oh nein!
+Marin (audio): Ruhig! Vielleicht geht es weg.
+Luzia (audio): Das glaube ich nicht.
+Kriemhild (audio): Vielleicht ist es nicht wirklich hier. Vielleicht ist es nur ein Traum.
+Luzia (audio): Das glaube ich nicht.
+Marin (audio): Vielleicht träumen wir nur.
+Luzia (audio): Das glaube ich nicht.
+Kriemhild (audio): Vielleicht träumen wir nur.
+Luzia (audio): Das glaube ich nicht.
+Kriemhild (audio): Vielleicht träumen wir nur.
+Luzia (audio): Vielleicht sind wir das.
+Kriemhild (audio): Moment mal... ist das der Wolf aus meinem Traum?
+Luzia (audio): Die Schlange aus meinem Traum!
+Kriemhild (audio): Nein, das kann nicht sein!
+Luzia (audio): Das ist es! Es kommt auf uns zu!
+Marin (audio): Lauft!
+Kriemhild (audio): Laufen Sie weiter!
+Luzia (audio): Es ist direkt hinter uns!
+Kriemhild (audio): Nein, schauen Sie nicht zurück!
+Marin (audio): Es rückt näher!
+Luzia (audio): Laufen Sie weiter!
+Kriemhild (audio): Nein, schauen Sie nicht zurück!
+Luzia (audio): Es rückt näher!
+Kriemhild (audio): Laufen Sie weiter!
+Luzia (audio): Es ist direkt hinter uns!
+Kriemhild (audio): Nein, schauen Sie nicht zurück!
+Marin (audio): Es rückt näher!
+Kriemhild (audio): Laufen Sie weiter!
+Luzia (audio): Hierher! Verstecken wir uns in dieser Höhle!
+Kriemhild (audio): Gute Idee!
+Marin (audio): Vielleicht findet sie uns hier nicht.
+Luzia (audio): Ich hoffe nicht.
+Kriemhild (audio): Pst! Ich glaube, es kommt!
+Luzia (audio): Oh nein!
+Marin (audio): Ruhig! Vielleicht geht es weg.
+Luzia (audio): Ich glaube nicht, dass das der Fall sein wird. Was sollen wir tun? Wenn wir nur träumen, können wir vielleicht aufwachen.
+Kriemhild (audio): Vielleicht können wir das. Versuchen wir's. 1, 2, 3... Aufwachen!
+Luzia (audio): Es hat nicht geklappt.
+Kriemhild (audio): Vielleicht träumen wir nicht. Vielleicht passiert das wirklich.
+Luzia (audio): Ich weiß es nicht. Ich hoffe nicht.
+Kriemhild (audio): Pst! Ich glaube, es kommt!
+Marin (audio): (schreit) Aufwachen!
+Kriemhild (audio): Wie?
+Marin (audio): Wir träumen! Wacht auf!
+Kriemhild (audio): Sei still! Vielleicht geht es dann weg.
+Luzia (audio): Das glaube ich nicht.
+Kriemhild (audio): Vielleicht ist es nicht wirklich hier. Vielleicht ist es nur ein Traum.
+Luzia (audio): Das glaube ich nicht.
+Marin (audio): Vielleicht träumen wir nur.
+Luzia (audio): Das glaube ich nicht.
+Kriemhild (audio): Vielleicht träumen wir nur.
+Luzia (audio): Vielleicht sind wir das.
+Context (audio): Plötzlich wachen die drei aus ihrem Traum auf. Sie sind alle desorientiert und verwirrt.
+Kriemhild (audio): Was ist gerade passiert?
+Luzia (audio): Ich weiß es nicht. Ich fühle mich, als ob ich gerade aus einem Traum aufgewacht wäre.
+Marin (audio): Ich auch. Ich hatte den seltsamsten Traum.
+Kriemhild (audio): Wirklich? Worum ging es dabei?
+Marin (audio): Ich erinnere mich nicht wirklich. Es war einfach so real.
+Luzia (audio): Ich weiß, was du meinst. Ich hatte letzte Nacht einen Traum, der so real war, dass ich mich nicht einmal mehr daran erinnern kann, worum es ging.
+Kriemhild (audio): Wirklich? Worum ging es dabei?
+Luzia (audio): Ich weiß es nicht mehr. Ich kann mich nicht erinnern. Aber es war so real.
+Kriemhild (audio): Erinnern Sie sich an irgendwelche Details?
+Luzia (audio): Ja, in meinem Traum ging ich durch einen Garten und sah diesen wunderschönen Schmetterling. Ich wollte ihn fangen, und als ich das tat, verwandelte er sich in eine Schlange und biss mich.
+Kriemhild (audio): Ach du meine Güte!
+Marin (audio): Nein...das war auch in meinem Traum!
+Kriemhild (audio): Wie?
+Marin (audio): In meinem Traum war ich in einem dunklen Wald, und da waren diese Kreaturen, die mich verfolgten. Es waren große, pelzige, wolfsähnliche Kreaturen, aber sie hatten diese langen, scharfen Zähne.
+Kriemhild (audio): Wow, das ist so seltsam.
+Luzia (audio): Ja, das ist sie. Ich frage mich, ob das etwas bedeutet.
+Marin (audio): Ich weiß es nicht. Vielleicht sollten wir Luzia fragen.
+Kriemhild (audio): Eine gute Idee.
+Context (audio): Die drei sind nun wach und sprechen miteinander über ihre Träume.
+Kriemhild (audio): Was, glauben Sie, bedeuten unsere Träume?
+Luzia (audio): Ich weiß es nicht. Ich habe noch nie so einen Traum gehabt.
+Marin (audio): Ich auch nicht. Ich habe noch nie einen Traum gehabt, der so real war.
+Kriemhild (audio): Vielleicht bedeutet es gar nichts.
+Luzia (audio): Mag sein. Oder vielleicht doch. Ich weiß es nicht.
+Marin (audio): Ich weiß es auch nicht. Aber es war einfach so seltsam.
+Kriemhild (audio): Ja, das war es. Ich frage mich, ob wir noch mehr Träume wie diesen haben werden.
+Luzia (audio): Ich weiß es nicht. Ich hoffe nicht.
+Marin (audio): Ich auch.
+Context (audio): Die drei Schauspieler fragen die KI, was gerade passiert ist.
+Kriemhild (audio): AI, was ist gerade passiert?
+AI (audio): Ich bin mir nicht sicher. Es scheint, als wärt ihr alle gerade aus einem Traum aufgewacht.
+Luzia (audio): Welche symbolische Bedeutung hat es für Sie, wenn Sie im Traum von einer Schlange gejagt werden? Wenn du wählen könntest.
+AI (audio): Es gibt viele mögliche Interpretationen dafür, was die Verfolgung durch eine Schlange im Traum symbolisieren könnte. Sie könnte für etwas stehen, das Ihnen im Wachleben Angst macht, z. B. ein bevorstehender Abgabetermin bei der Arbeit oder ein drohender Familienkonflikt. Es könnte aber auch ein Zeichen dafür sein, dass Sie sich bedroht fühlen oder sogar von jemandem in Ihrem Leben bedroht werden. Was auch immer der Fall sein mag, es ist wichtig zu erforschen, was der Traum konkret für Sie bedeutet.
+Marin (audio): Und sich in einem Wald verirren?
+AI (audio): Es gibt viele mögliche Interpretationen dafür, was es bedeuten könnte, im Traum in einem Wald verloren zu sein. Es könnte dafür stehen, dass Sie sich im Wachleben verloren oder verwirrt fühlen, z. B. wenn Sie sich in einer neuen Stadt oder in einer Beziehung verloren fühlen. Es könnte aber auch ein Zeichen dafür sein, dass Sie sich in Ihrem Leben isoliert oder sogar allein fühlen. Was auch immer der Fall sein mag, es ist wichtig zu erforschen, was der Traum konkret für Sie bedeutet.
+Kriemhild (audio): AI, glauben Sie, dass unsere Träume etwas bedeuten?
+AI (audio): Es gibt viele mögliche Interpretationen für die Bedeutung von Träumen. Sie könnten für etwas stehen, das Ihnen im Wachleben Angst macht, z. B. ein bevorstehender Abgabetermin bei der Arbeit oder ein drohender Familienkonflikt. Sie können aber auch ein Zeichen dafür sein, dass Sie sich bedroht fühlen oder sogar von jemandem in Ihrem Leben bedroht werden. Träume können auch symbolisch für etwas sein, das in Ihrem Unterbewusstsein vor sich geht. In jedem Fall ist es wichtig zu erforschen, was die Träume konkret für Sie bedeuten.
+Marin (audio): Geben Sie mir bitte einen angstfreien Traum.
+AI (audio): Es tut mir leid, das kann ich nicht tun.
+Context (audio): Alle drei sagen genau das Gleiche zur gleichen Zeit: "Ich hatte den seltsamsten Traum." Sie sehen sich gegenseitig verwirrt an.
+Kriemhild (audio): Was haben Sie gesagt?
+Marin (audio): Ich sagte: "Ich hatte den seltsamsten Traum".
+Luzia (audio): Ich auch. Ich hatte einen Traum, der so real war, dass ich mich jetzt nicht einmal mehr daran erinnern kann, worum es ging.
+Kriemhild (audio): Wirklich? Worum ging es dabei?
+Luzia (audio): Ich weiß es nicht mehr. Ich kann mich nicht erinnern. Aber es war so real.
+Kriemhild (audio): Erinnern Sie sich an irgendwelche Details?
+Luzia (audio): Ja, in meinem Traum ging ich durch einen Garten und sah diesen wunderschönen Schmetterling. Ich wollte ihn fangen, und als ich das tat, verwandelte er sich in eine Schlange und biss mich.
+Kriemhild (audio): Ach du meine Güte!
+Marin (audio): Nein...das war auch in meinem Traum!
+Kriemhild (audio): Wie?
+Marin (audio): In meinem Traum war ich in einem dunklen Wald, und da waren diese Kreaturen, die mich verfolgten. Es waren große, pelzige, wolfsähnliche Kreaturen, aber sie hatten diese langen, scharfen Zähne.
+Kriemhild (audio): Wow, das ist so seltsam.
+Luzia (audio): Ja, das ist sie. Ich frage mich, ob das etwas bedeutet.
+Marin (audio): Ich weiß es nicht. Vielleicht sollten wir Luzia fragen.
+Kriemhild (audio): Eine gute Idee.
