@@ -25,6 +25,12 @@ voices = {
 }
 
 
+shortnames = {
+    "kriemhild": "ki",
+    "luzia": "lu",
+    "marin": "x",
+}
+
 CHAR_LIMIT = 900
 
 @dataclass
@@ -100,6 +106,27 @@ class Part:
 #             story.append(part)
 #     return story
 
+def postprocess_gpt_text(text):
+    """Do some heuristics to fix frequent formatting errors"""
+    """ Replace ... Marin: ... with:
+    ...
+    Marin (audio): ...
+    """
+    text = text.replace("Maren", "Marin")
+    for actor in voices:
+        text = text.replace(f"{actor}:", f"\n{actor} (audio): ")
+        text = text.replace(f"{actor} (audio) :", f"\n{actor} (audio): ")
+    text = text.replace("\n[", "\nStage directions (audio): ")
+    text = text.replace("\n(", "\nStage directions (audio): ")
+    text = text.replace("\n{", "\nStage directions (audio): ")
+
+    while "  " in text:
+        text = text.replace("  ", " ")
+    text = text.replace("\n ", "\n")
+
+    text = text.split("http")[0] # if gpt starts talking about random websites we dont want that
+
+    return text    
 
 def fill_template_gpt3(parts: List[Part], min_length=10000) -> List[Part]:
     """Replace <generate> with generated text from GPT"""
@@ -124,14 +151,16 @@ def fill_template_gpt3(parts: List[Part], min_length=10000) -> List[Part]:
                 breakpoint()
                 print(len(prompt))
 
-            text = response.choices[0].text.split("\n")#.split("\n")[0]
+            text = response.choices[0].text
+            text = postprocess_gpt_text(text)
+            text = text.split("\n")#.split("\n")[0]
             story.append(Part(part.raw, part.actor, part.media, text[0], True, part.voice))
             for line in text[1:]:
                 try:
                     story.append(Part.parse(line))
                 except:
                     print(f"Could not parse line: {line}")
-                    continue
+                    break
         else:
             story.append(part)
     return continue_story(story, min_length)
@@ -147,11 +176,12 @@ def continue_story(story: List[Part], min_length=10000) -> List[Part]:
                 model="davinci",
                 prompt=prompt,
                 temperature=0.7,
-                max_tokens=1800,
+                max_tokens=1000,
                 top_p=1,
                 frequency_penalty=1,
                 presence_penalty=0
-            ).choices[0].text.split("\n")
+            ).choices[0].text
+            text = postprocess_gpt_text(text).split("\n")
         except Exception as e:
             print(f"Could not generate text: {type(e)}{e}")
             breakpoint()
@@ -161,7 +191,7 @@ def continue_story(story: List[Part], min_length=10000) -> List[Part]:
                 story.append(Part.parse(line))
             except:
                 print(f"Could not parse line: {line}")
-                continue
+                break
         full_prompt = create_prompt(story)
     return story
 
@@ -177,8 +207,9 @@ def create_prompt(parts: List[Part]) -> str:
     """
     prompt = ""
     for part in parts[:-1]:
-        prompt += part.shortstr() + "\n"
-    prompt += f"{parts[-1].actor}:"
+        # prompt += part.shortstr() + "\n"
+        prompt += str(part) + "\n"
+    prompt += f"{parts[-1].actor} ({parts[-1].media}):"
     return prompt
 
 
@@ -269,10 +300,12 @@ def text_to_media(parts, play, generate_all, target=None):
             if part.generated or generate_all:
                 if target is not None:
                     actor_dir = f"{target}/{part.actor}"
-                    filename = os.path.join(actor_dir, f"/{i + 1}.mp3")
-                    system(f"say -v {part.voice} --data-format=LEF32@22050 -o {filename} '{hint}: {text}'")
+                    filename = os.path.join(actor_dir, f"{i + 1}.wav")
+                    os.makedirs(actor_dir, exist_ok=True)
+                    system(f"say -o {filename} --data-format=LEF32@22050 '{text}'")
                 if play:
-                    system(f"say -v {part.voice} '{part.actor[0]}: {text}'")
+                    actor_short = shortnames[part.actor.lower()]
+                    system(f"say -v {part.voice} '{actor_short}: {text}'")
     
 
 @click.command()
