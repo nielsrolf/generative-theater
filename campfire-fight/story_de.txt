@@ -1,0 +1,106 @@
+Context (audio): Kriemhild und Marin streiten darüber, wie man ein Lagerfeuer macht.
+Kriemhild (audio): NEIN. Man legt das Holz einfach auf einen Haufen und zündet es dann an. Das weiß jeder.
+Marin (audio): NEIN. Du musst zuerst ein Tipi aus dem Holz machen und es dann anzünden. Nur so wird es funktionieren.
+Kriemhild (audio): Sie sind verrückt. So macht man das nicht.
+Marin (audio): Ja, das ist sie. Ich habe es im Fernsehen gesehen.
+Kriemhild (audio): Was meinst du mit einem Tipi?! Zeig es mir.
+Marin (audio): Zum Beispiel so.
+Context (audio): Marin zeigt Kriemhild, wie man ein Tipi aus dem Holz baut.
+Kriemhild (audio): Oh, ich verstehe. Das macht schon mehr Sinn.
+Marin (audio): Sehen Sie? Ich habe es Ihnen gesagt.
+Kriemhild (audio): Aber warum haben Sie mir das nicht gleich gesagt?
+Marin (audio): Ich weiß es nicht. Ich wollte nur sehen, ob du weißt, wie man das macht.
+Kriemhild (audio): Warum sollten Sie das sehen wollen?
+Marin (audio): Ich weiß es nicht. Ich dachte nur, es wäre lustig, wenn du nicht wüsstest, wie man das macht.
+Kriemhild (audio): Das ist nicht lustig. Das ist gemein.
+Marin (audio): Es tut mir leid. Ich wollte nicht gemein sein. Ich habe nur herumgealbert.
+Kriemhild (audio): Machen Sie keine solchen Witze. Das ist nicht lustig.
+Marin (audio): Ist auch.
+Kriemhild (audio): Ist es nicht.
+Marin (audio): Ist auch.
+Kriemhild (audio): Ist es nicht.
+Marin (audio): Ist auch.
+Kriemhild (audio): Ist es nicht.
+Marin (audio): Ist auch.
+Kriemhild (audio): Ist es nicht.
+Marin (audio): Ist auch.
+Kriemhild (audio): Ist es nicht.
+Marin (audio): Ist auch.
+Kriemhild (audio): Ist es nicht.
+Marin (audio): Ist auch.
+Kriemhild (audio): Ist es nicht.
+Marin (audio): Ist auch.
+Kriemhild (audio): Ist es nicht.
+Marin (audio): Ist auch.
+Kriemhild (audio): Ist es nicht.
+Marin (audio): Ist auch.
+Kriemhild (audio): Ist es nicht.
+Marin (audio): Ist auch.
+Kriemhild (audio): Ist es nicht.
+Marin (audio): Ist auch.
+Kriemhild (audio): Du bist jetzt einfach nur starrköpfig.
+Marin (audio): Nein, das tue ich nicht. Ich versuche nur zu beweisen, dass du dich irrst.
+Kriemhild (audio): Ich liege nicht falsch.
+Marin (audio): Ja, das sind Sie.
+Kriemhild (audio): Nein, das bin ich nicht.
+Marin (audio): Ja, das sind Sie.
+Kriemhild (audio): Nein, das bin ich nicht.
+Marin (audio): Ja, das sind Sie.
+Kriemhild (audio): Nein, das bin ich nicht.
+Marin (audio): Ja, das sind Sie.
+Kriemhild (audio): Nein, das bin ich nicht.
+Marin (audio): Ja, das sind Sie.
+Kriemhild (audio): Nein, das bin ich nicht.
+Marin (audio): Ja, das sind Sie.
+Kriemhild (audio): Nein, das bin ich nicht.
+Marin (audio): Ja, das sind Sie.
+Kriemhild (audio): Nein, das bin ich nicht.
+Marin (audio): Ja, das sind Sie.
+Kriemhild (audio): Ich liege nicht falsch.
+Marin (audio): Ja, das sind Sie.
+Kriemhild (audio): Nein, das bin ich nicht.
+Marin (audio): Ja, das sind Sie.
+Kriemhild (audio): Nein, das bin ich nicht.
+Marin (audio): Ja, das sind Sie.
+Kriemhild (audio): Nein, das bin ich nicht.
+Marin (audio): Ja, das sind Sie.
+Kriemhild (audio): Nein, das bin ich nicht.
+Marin (audio): Ja, das sind Sie.
+Kriemhild (audio): Nein, das bin ich nicht.
+Marin (audio): Ja, das sind Sie.
+Kriemhild (audio): Nein, das bin ich nicht.
+Marin (audio): Ja, das sind Sie.
+Kriemhild (audio): Nein, das bin ich nicht.
+Marin (audio): Ja, das sind Sie.
+Kriemhild (audio): Nein, das bin ich nicht.
+Marin (audio): Ja, das sind Sie.
+Kriemhild (audio): Nein, das bin ich nicht.
+Kriemhild (audio): Marin, ich liege nicht falsch.
+Marin (audio): Ja, das sind Sie.
+Kriemhild (audio): Wie können wir diese Szene beenden?
+Marin (audio): Wir könnten Kriemhild dazu bringen, endlich zuzugeben, dass sie sich geirrt hat und sich bei Marin zu entschuldigen.
+Kriemhild (audio): Bitte geben Sie mir ein alternatives Ende.
+Marin (audio): Wir könnten Kriemhild dazu bringen, wütend zu werden und von Marin wegzugehen.
+Kriemhild (audio): Ist das überhaupt eine Option?
+Marin (audio): Ich weiß es nicht. Ist es das?
+Kriemhild (audio): Luzia, komm bitte hierher.
+Luzia (audio): Was ist hier los?
+Kriemhild (audio): Marin ist stur und will nicht zugeben, dass ich recht habe, wenn es darum geht, wie man ein Lagerfeuer macht.
+Luzia (audio): Lassen Sie mich mit ihr reden. Vielleicht kann ich mit ihr reden.
+Kriemhild (audio): Ich danke Ihnen.
+Luzia (audio): Marin, wo liegt das Problem?
+Marin (audio): Kriemhild ist stur und will nicht zugeben, dass ich recht habe, wenn es darum geht, wie man ein Lagerfeuer macht.
+Luzia (audio): Versuchen wir, das zu klären. Kriemhild, du willst das Feuer machen, indem du ein Tipi baust, richtig?
+Kriemhild (audio): Ja.
+Luzia (audio): Und Marin, du willst das Feuer nur durch das Aufschichten des Holzes und Anzünden entfachen, richtig?
+Marin (audio): Ja.
+Luzia (audio): Warum versuchen wir nicht, beides zu tun? Wir können das Tipi bauen und es dann anzünden.
+Marin (audio): Das ist eine gute Idee.
+Kriemhild (audio): Ja, lass es uns versuchen.
+Luzia (audio): Sehen Sie? Wir können alle glücklich sein, wenn wir nur versuchen, zusammenzuarbeiten.
+Context (audio): Plötzlich hören sie ein Geräusch in der Ferne.
+Kriemhild (audio): Was war das?
+Luzia (audio): Ich weiß es nicht. Es hörte sich an, als käme etwas in diese Richtung.
+Kriemhild (audio): Sollten wir uns verstecken?
+Luzia (audio): Ja, verstecken wir uns.
+Context (audio): Sie verstecken sich hinter einem Gebüsch und warten ab, was auf sie zukommt.

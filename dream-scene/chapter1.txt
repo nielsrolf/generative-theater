@@ -1,0 +1,167 @@
+Context (audio): Format Theater Script. Situation: Three people fell asleep around a fireplace. Their names are Luzia, Marin, and Kriemhild. They all had some very vivid and odd dreams. They wake up. As they begin to tell each other about their dreams from the night before, they slip back into the narrative of the dreams. The three dream narratives weave in and out of one another, and they re-enact the situation of the dreams together.
+Kriemhild (audio): Good morning Marin, good morning Luzia. How did you sleep?
+Marin (audio): I slept well, thank you. But I had the strangest dream.
+Kriemhild (audio): Really? What was it about?
+Luzia (audio): Me too! I had a dream that was so real, I can't even remember what it was about now.
+Marin (audio): Well, I dreamed that I was in a dark forest, and there were these creatures following me. They were these big, furry, wolf-like creatures, but they had these long, sharp teeth.
+Kriemhild (audio): Wow, that sounds really scary.
+Luzia (audio): Yeah, it was. I'm glad it was just a dream.
+Kriemhild (audio): Did they hurt you in the dream?
+Marin (audio): No, I don't think so. I don't really remember. But it was just so real.
+Luzia (audio): I know what you mean. I had a dream last night that was so real, I can't even remember what it was about now.
+Kriemhild (audio): Really? What was it about?
+Luzia (audio): I don't know. I can't remember. But it was so real.
+Kriemhild (audio): Can you recall any details?
+Luzia (audio): Actually, yes...in my dream, I was walking through a garden, and I saw this beautiful butterfly. I went to catch it, and when I did, it turned into a snake and bit me.
+Kriemhild (audio): Oh my goodness! That must have been so scary!
+Luzia (audio): Yeah, it was. I'm glad it was just a dream.
+Marin (audio): Hey, I just remembered something about my dream.
+Kriemhild (audio): What is it?
+Marin (audio): In my dream, I was in a dark forest, and there were these creatures following me. They were these big, furry, wolf-like creatures, but they had these long, sharp teeth.
+Kriemhild (audio): Wow, that sounds really scary.
+Marin (audio): Yeah, it was. I'm glad it was just a dream.
+Luzia (audio): What's that over there?
+Marin (audio): What's what?
+Luzia (audio): That light. Can't you see it?
+Marin (audio): I don't see anything.
+Luzia (audio): It's right there. It's so bright.
+Kriemhild (audio): I see it too. It's so beautiful.
+Luzia (audio): It's calling to me.
+Kriemhild (audio): Me too.
+Marin (audio): What are you talking about? I don't see anything.
+Luzia (audio): It's right there. Can't you see it?
+Marin (audio): No, I don't see anything.
+Luzia (audio): It's so bright.
+Kriemhild (audio): It's so beautiful.
+Luzia (audio): It's calling to me.
+Kriemhild (audio): Me too.
+Marin (audio): Wait... I think... it's the wolf from my dream!
+Luzia (audio): The snake from my dream!
+Kriemhild (audio): No, it can't be!
+Luzia (audio): It is! It's coming for us!
+Marin (audio): Run!
+Kriemhild (audio): Keep running!
+Luzia (audio): It's right behind us!
+Kriemhild (audio): No, don't look back!
+Marin (audio): It's getting closer!
+Luzia (audio): Keep running!
+Kriemhild (audio): No, don't look back!
+Luzia (audio): It's getting closer!
+Kriemhild (audio): Keep running!
+Luzia (audio): It's right behind us!
+Kriemhild (audio): No, don't look back!
+Marin (audio): It's getting closer!
+Kriemhild (audio): Keep running!
+Luzia (audio): Over here! Let's hide in this cave!
+Kriemhild (audio): Good idea!
+Marin (audio): Maybe it won't find us here.
+Luzia (audio): I hope not.
+Kriemhild (audio): Shh! I think it's coming!
+Luzia (audio): Oh no!
+Marin (audio): Quiet! Maybe it will go away.
+Luzia (audio): I don't think so.
+Kriemhild (audio): Maybe it's not really here. Maybe it's just a dream.
+Luzia (audio): I don't think so.
+Marin (audio): Maybe we're just dreaming.
+Luzia (audio): I don't think so.
+Kriemhild (audio): Maybe we're just dreaming.
+Luzia (audio): I don't think so.
+Kriemhild (audio): Maybe we're just dreaming.
+Luzia (audio): Maybe we are.
+Kriemhild (audio): Wait a minute...is that the wolf from my dream?
+Luzia (audio): The snake from my dream!
+Kriemhild (audio): No, it can't be!
+Luzia (audio): It is! It's coming for us!
+Marin (audio): Run!
+Kriemhild (audio): Keep running!
+Luzia (audio): It's right behind us!
+Kriemhild (audio): No, don't look back!
+Marin (audio): It's getting closer!
+Luzia (audio): Keep running!
+Kriemhild (audio): No, don't look back!
+Luzia (audio): It's getting closer!
+Kriemhild (audio): Keep running!
+Luzia (audio): It's right behind us!
+Kriemhild (audio): No, don't look back!
+Marin (audio): It's getting closer!
+Kriemhild (audio): Keep running!
+Luzia (audio): Over here! Let's hide in this cave!
+Kriemhild (audio): Good idea!
+Marin (audio): Maybe it won't find us here.
+Luzia (audio): I hope not.
+Kriemhild (audio): Shh! I think it's coming!
+Luzia (audio): Oh no!
+Marin (audio): Quiet! Maybe it will go away.
+Luzia (audio): I don't think it will. What should we do? If we are just dreaming, maybe we can wake up.
+Kriemhild (audio): Maybe we can. Let's try it. 1, 2, 3... wake up!
+Luzia (audio): It didn't work.
+Kriemhild (audio): Maybe we're not dreaming. Maybe this is really happening.
+Luzia (audio): I don't know. I hope not.
+Kriemhild (audio): Shh! I think it's coming!
+Marin (audio): (yells) Wake up!
+Kriemhild (audio): What?
+Marin (audio): We're dreaming! Wake up!
+Kriemhild (audio): Be quiet! Maybe it will go away.
+Luzia (audio): I don't think so.
+Kriemhild (audio): Maybe it's not really here. Maybe it's just a dream.
+Luzia (audio): I don't think so.
+Marin (audio): Maybe we're just dreaming.
+Luzia (audio): I don't think so.
+Kriemhild (audio): Maybe we're just dreaming.
+Luzia (audio): Maybe we are.
+Context (audio): Suddenly, the three of them wake up from the dream. They are all disoriented and confused.
+Kriemhild (audio): What just happened?
+Luzia (audio): I don't know. I feel like I just woke up from a dream.
+Marin (audio): Me too. I had the strangest dream.
+Kriemhild (audio): Really? What was it about?
+Marin (audio): I don't really remember. It was just so real.
+Luzia (audio): I know what you mean. I had a dream last night that was so real, I can't even remember what it was about now.
+Kriemhild (audio): Really? What was it about?
+Luzia (audio): I don't know. I can't remember. But it was so real.
+Kriemhild (audio): Do you remember any details?
+Luzia (audio): Actually, yes...in my dream, I was walking through a garden, and I saw this beautiful butterfly. I went to catch it, and when I did, it turned into a snake and bit me.
+Kriemhild (audio): Oh my goodness!
+Marin (audio): No...that was in my dream too!
+Kriemhild (audio): What?
+Marin (audio): In my dream, I was in a dark forest, and there were these creatures following me. They were these big, furry, wolf-like creatures, but they had these long, sharp teeth.
+Kriemhild (audio): Wow, that's so strange.
+Luzia (audio): Yeah, it is. I wonder if it means anything.
+Marin (audio): I don't know. Maybe we should ask Luzia.
+Kriemhild (audio): Good idea.
+Context (audio): The three of them are now awake and talking to each other about their dreams.
+Kriemhild (audio): So, what do you think our dreams mean?
+Luzia (audio): I don't know. I've never had a dream like that before.
+Marin (audio): Me neither. I've never had a dream that was so real.
+Kriemhild (audio): Maybe it doesn't mean anything.
+Luzia (audio): Maybe. Or maybe it does. I don't know.
+Marin (audio): I don't know either. But it was just so strange.
+Kriemhild (audio): Yeah, it was. I wonder if we'll have any more dreams like that.
+Luzia (audio): I don't know. I hope not.
+Marin (audio): Me too.
+Context (audio): The three actors ask the AI what just happened.
+Kriemhild (audio): AI, what just happened?
+AI (audio): I'm not sure. It seems like you all just woke up from a dream.
+Luzia (audio): What do you imagine the symbolic meaning of getting chased by a snake in a dream? If you could choose.
+AI (audio): There are many possible interpretations of what getting chased by a snake in a dream could symbolize. It could represent something that is causing you fear or anxiety in your waking life, such as an upcoming deadline at work or a looming family conflict. Alternatively, it could be a sign that you are feeling threatened or even threatened by someone in your life. Whatever the case may be, it is important to explore what the dream specifically means to you.
+Marin (audio): And being lost in a forest?
+AI (audio): There are many possible interpretations of what being lost in a forest in a dream could symbolize. It could represent feeling lost or confused in your waking life, such as feeling lost in a new city or feeling lost in a relationship. Alternatively, it could be a sign that you are feeling isolated or even alone in your life. Whatever the case may be, it is important to explore what the dream specifically means to you.
+Kriemhild (audio): AI, do you think our dreams mean anything?
+AI (audio): There are many possible interpretations of what dreams mean. They could represent something that is causing you fear or anxiety in your waking life, such as an upcoming deadline at work or a looming family conflict. Alternatively, they could be a sign that you are feeling threatened or even threatened by someone in your life. Dreams can also be symbolic of something that is going on in your subconscious mind. Whatever the case may be, it is important to explore what the dreams specifically mean to you.
+Marin (audio): Give me non-anxiety dream please.
+AI (audio): I'm sorry, I can't do that.
+Context (audio): All three of them say the same thing at the exact same time: "I had the strangest dream." They look at each other, confused.
+Kriemhild (audio): What did you say?
+Marin (audio): I said, "I had the strangest dream."
+Luzia (audio): Me too. I had a dream that was so real, I can't even remember what it was about now.
+Kriemhild (audio): Really? What was it about?
+Luzia (audio): I don't know. I can't remember. But it was so real.
+Kriemhild (audio): Do you remember any details?
+Luzia (audio): Actually, yes...in my dream, I was walking through a garden, and I saw this beautiful butterfly. I went to catch it, and when I did, it turned into a snake and bit me.
+Kriemhild (audio): Oh my goodness!
+Marin (audio): No...that was in my dream too!
+Kriemhild (audio): What?
+Marin (audio): In my dream, I was in a dark forest, and there were these creatures following me. They were these big, furry, wolf-like creatures, but they had these long, sharp teeth.
+Kriemhild (audio): Wow, that's so strange.
+Luzia (audio): Yeah, it is. I wonder if it means anything.
+Marin (audio): I don't know. Maybe we should ask Luzia.
+Kriemhild (audio): Good idea.

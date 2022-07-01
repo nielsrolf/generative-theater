@@ -1,0 +1,95 @@
+Context (audio): Drei Menschen stolpern durch die Wüste. Die erste Person könnte darüber sprechen, wie heiß es ist und wie durstig sie ist. Die zweite Person könnte darüber sprechen, wie müde sie ist und wie sehr ihre Füße schmerzen. Die dritte Person könnte darüber sprechen, dass sie Heimweh hat und ihre Familie vermisst. Hier ist ein Theaterskript, in dem die drei Personen die oben skizzierte Diskussion führen:
+Luzia (audio): Igitt, es ist so heiß hier draußen. Ich bin so durstig.
+Marin (audio): Ich weiß. Ich bin so müde. Meine Füße tun weh.
+Kriemhild (audio): Ich kann nicht glauben, dass wir hier draußen festsitzen. Ich vermisse meine Familie.
+Luzia (audio): Wir werden es schaffen. Das müssen wir.
+Marin (audio): Ich hoffe es. Ich weiß nicht, wie viel ich davon noch ertragen kann.
+Kriemhild (audio): Ich auch nicht. Aber wir müssen positiv bleiben.
+Context (audio): Plötzlich,
+Kriemhild (audio): Hey, was ist das da drüben?
+Luzia (audio): Wie?
+Kriemhild (audio): Dort, am Horizont.
+Luzia (audio): Ich kann nichts erkennen.
+Kriemhild (audio): Es sieht aus wie eine Fata Morgana.
+Marin (audio): Die Fata Morgana?
+Kriemhild (audio): Ja, weißt du, wie eine optische Täuschung.
+Luzia (audio): Schauen wir es uns an.
+Kriemhild (audio): Vielleicht ist es eine Oase!
+Marin (audio): Ich hoffe es. Ich bin so durstig.
+Luzia (audio): Ich auch. Los geht's!
+Kriemhild (audio): Moment, was ist, wenn es keine Fata Morgana ist?
+Luzia (audio): Dann werden wir uns darum kümmern, wenn wir dort sind. Na los!
+Kriemhild (audio): Ja.
+Context (audio): Sie gehen hin und stellen fest, dass es sich in Wirklichkeit um eine Fata Morgana handelt.
+Luzia (audio): Ich kann es nicht glauben.
+Kriemhild (audio): Ich sagte doch, es sei eine Fata Morgana.
+Marin (audio): Ich kann nicht glauben, dass wir all diese Energie umsonst verschwendet haben.
+Luzia (audio): Zumindest wissen wir es jetzt mit Sicherheit.
+Kriemhild (audio): Ich denke, das ist schon etwas.
+Marin (audio): Ich weiß nicht, wie es euch geht, aber ich werde eine Pause einlegen.
+Luzia (audio): Ja, ich auch.
+Kriemhild (audio): Ja.
+Context (audio): Die Dinge nehmen eine Wendung. Mord.
+Luzia (audio): Ich kann nicht glauben, dass wir hier draußen festsitzen.
+Marin (audio): Ich weiß. Ich bin so müde. Meine Füße tun weh.
+Kriemhild (audio): Ich kann nicht glauben, dass wir hier draußen festsitzen. Ich vermisse meine Familie.
+Luzia (audio): Wir werden es schaffen. Das müssen wir.
+Marin (audio): Ich hoffe es. Ich weiß nicht, wie viel ich davon noch ertragen kann.
+Kriemhild (audio): Ich auch nicht. Aber wir müssen positiv bleiben.
+Luzia (audio): Hey, was ist das da drüben?
+Kriemhild (audio): Wie?
+Luzia (audio): Dort, am Horizont.
+Kriemhild (audio): Es sieht aus wie eine Fata Morgana.
+Marin (audio): Die Fata Morgana?
+Kriemhild (audio): Ja, weißt du, wie eine optische Täuschung.
+Luzia (audio): Schauen wir es uns an.
+Kriemhild (audio): Vielleicht ist es eine Oase!
+Marin (audio): Ich hoffe es. Ich bin so durstig.
+Luzia (audio): Ich auch. Los geht's!
+Kriemhild (audio): Moment, was ist, wenn es keine Fata Morgana ist?
+Luzia (audio): Dann werden wir uns darum kümmern, wenn wir dort sind. Na los!
+Kriemhild (audio): Ja.
+Context (audio): Sie gehen hin und stellen fest, dass es sich in Wirklichkeit um eine Fata Morgana handelt.
+Luzia (audio): Ich kann es nicht glauben.
+Kriemhild (audio): I... Ich... brauche... Wasser...
+Marin (audio): Ich kann nicht glauben, dass wir all diese Energie umsonst verschwendet haben.
+Luzia (audio): Zumindest wissen wir es jetzt mit Sicherheit.
+Kriemhild (audio): Ich... kann... nicht... atmen...
+Marin (audio): Was ist los mit ihr?
+Luzia (audio): Ich weiß es nicht. Sie antwortet nicht.
+Marin (audio): Wir müssen ihr helfen!
+Luzia (audio): Okay, okay. Beruhigen Sie sich. Lass uns das durchdenken.
+Kriemhild (audio): ...
+Luzia (audio): Wir haben kein Wasser mehr. Wenn wir ihr unser Wasser geben, werden wir auch sterben.
+Marin (audio): Aber wir können sie nicht einfach sterben lassen!
+Luzia (audio): Ich weiß, aber was können wir sonst tun?
+Marin (audio): ...
+Luzia (audio): Wir müssen eine Entscheidung treffen. Wir können nicht einfach hier sitzen.
+Marin (audio): Okay, du hast recht.
+Luzia (audio): Was wollen Sie tun?
+Marin (audio): Das ist Scheiße.
+Luzia (audio): Wir müssen uns entscheiden, Marin.
+Marin (audio): ...
+Luzia (audio): Was wollen Sie tun?
+Marin (audio): ...
+Luzia (audio): Was willst du tun, Marin?!
+Marin (audio): ...
+Luzia (audio): Na gut. Ich werde es tun.
+Marin (audio): Wie?
+Luzia (audio): Ich werde ihr mein Wasser geben. Du kannst meins auch haben.
+Marin (audio): Nein, das kann ich nicht zulassen!
+Luzia (audio): Das ist schon in Ordnung. Ich werde es sowieso nicht schaffen.
+Marin (audio): Was soll das heißen?
+Luzia (audio): Ich sterbe, Marin. Ich werde es nicht schaffen.
+Marin (audio): Nein, das bist du nicht!
+Luzia (audio): Ja, das bin ich. Aber auf diese Weise hat sie wenigstens eine Chance.
+Marin (audio): Luzia, nein!
+Luzia (audio): Das ist okay. Ich bin bereit.
+Context (audio): Sie gibt Kriemhild ihr Wasser und stirbt dann.
+Marin (audio): Luzia!
+Kriemhild (audio): ...
+Marin (audio): Luzia, wach auf!
+Kriemhild (audio): ...
+Marin (audio): Oh, Gott. Luzia.
+Kriemhild (audio): ...
+Marin (audio): Was habe ich getan?

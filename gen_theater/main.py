@@ -196,7 +196,16 @@ def parse_template(story_file: str) -> List[Part]:
     `
     """
     with open(story_file, "r") as f:
-        parts = [Part.parse(i) for i in f.readlines()]
+        parts = []
+        for line in f.readlines():
+            line = line.strip()
+            if line == "":
+                continue
+            try:
+                parts.append(Part.parse(line))
+            except:
+                print(line)
+                parts[-1].text += line
     return parts
 
 
@@ -237,7 +246,7 @@ def translate(text: str, lang: str = "DE") -> str:
     return translated_text
 
 
-def text_to_media(parts, play, generate_all, target):
+def text_to_media(parts, play, generate_all, target=None):
     """Generate audio and video for each actor in the script
     
     Arguments:
@@ -258,12 +267,12 @@ def text_to_media(parts, play, generate_all, target):
             print(part.actor)
             text = part.text.replace("'", "")
             if part.generated or generate_all:
-                if not play:
+                if target is not None:
                     actor_dir = f"{target}/{part.actor}"
                     filename = os.path.join(actor_dir, f"/{i + 1}.mp3")
                     system(f"say -v {part.voice} --data-format=LEF32@22050 -o {filename} '{hint}: {text}'")
-                else:
-                    system(f"say -v {part.voice} '{part.actor} zu {next_actor}: {text}'")
+                if play:
+                    system(f"say -v {part.voice} '{part.actor[0]}: {text}'")
     
 
 @click.command()

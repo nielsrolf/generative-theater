@@ -1,0 +1,66 @@
+Context (audio): Marin erzählt uns von den 50 unerwarteten Dingen, die man beim Campen in der Wüste unbedingt dabei haben muss. Er hat keine Erfahrung mit Camping und versteht vieles falsch oder scheint nicht wirklich zu wissen, was Camping wirklich ist:
+Marin (audio): Ähmm... na ja... Camping. Hier sind die 50 Dinge, die Sie mitbringen müssen, wenn Sie campen gehen wollen:
+Marin (audio): Nummer 1, ein Zelt. Du brauchst einen Platz zum Schlafen und zum Aufbewahren all deiner Sachen.
+Marin (audio): Nummer 2, ein Schlafsack. Der hält dich nachts warm.
+Marin (audio): Nummer 3, ein Kopfkissen. Sie brauchen etwas, auf dem Sie Ihren Kopf ausruhen können.
+Marin (audio): Nummer 4, ein Campingkocher. Damit können Sie Ihr Essen kochen.
+Marin (audio): Nummer 5: Eine Kühlbox. Damit bleiben Ihre Speisen und Getränke kalt.
+Marin (audio): Nummer 6: Eine Laterne. Damit können Sie nachts besser sehen.
+Marin (audio): Nummer 7, eine Taschenlampe. So können Sie im Dunkeln besser sehen.
+Marin (audio): Nummer 8, Batterien. Diese werden Ihre Laterne und Taschenlampe mit Strom versorgen.
+Marin (audio): Nummer 9, Insektenspray. Das wird die Wanzen fernhalten.
+Marin (audio): Nummer 10, Sonnenschutzmittel. Das schützt Sie vor der Sonne.
+Marin (audio): Nummer 11, ein Hut. Dieser schützt Sie vor der Sonne.
+Marin (audio): Nummer 12: Wasser. Sie müssen viel Wasser trinken, um hydriert zu bleiben.
+Marin (audio): Nummer 13: Essen. Sie müssen etwas zum Essen mitbringen.
+Marin (audio): Nummer 14: Kochgeschirr. Dazu gehören Töpfe, Pfannen und Utensilien.
+Marin (audio): Nummer 15: Eine Karte. Sie wird Ihnen helfen, Ihren Weg zu finden.
+Marin (audio): Nummer 16: Ein Kompass. Er hilft dir beim Navigieren.
+Marin (audio): Nummer 17: Ein Erste-Hilfe-Kasten. Dieser hilft Ihnen, wenn Sie sich verletzen.
+Marin (audio): Nummer 18: Eine Trillerpfeife. Damit können Sie Hilfe signalisieren.
+Marin (audio): Nummer 19: Süßigkeiten. Das wird dir helfen, deine Energie aufrechtzuerhalten.
+Marin (audio): Nummer 20: Eine Kamera. Damit können Sie Erinnerungen festhalten.
+Marin (audio): Warte, nein, das ist albern. Du solltest ein Handy mitbringen, damit du Fotos machen und sie auf Instagram posten kannst.
+Marin (audio): Nummer 21: Handy-Ladegerät. Damit bleibt dein Handy aufgeladen.
+Marin (audio): Nummer 22: Eine zusätzliche Garnitur Kleidung. Das ist hilfreich, wenn deine Kleidung nass wird.
+Marin (audio): Nummer 23: Toilettenartikel. Dazu gehören Dinge wie Seife, Zahnpasta und eine Zahnbürste.
+Marin (audio): Nummer 24: Ein Handtuch. Damit können Sie sich abtrocknen.
+Marin (audio): Nummer 25: Eine Plane. Das ist hilfreich, wenn es regnet.
+Marin (audio): Nummer 26: Eine Schaufel. Sie ist hilfreich, wenn Sie graben müssen.
+Marin (audio): Nummer 27: Seil. Dies wird für eine Vielzahl von Aufgaben hilfreich sein.
+Marin (audio): Nummer 28: Klebeband. Dies wird bei Reparaturen hilfreich sein.
+Marin (audio): Nummer 29: Ein Karabinerhaken. Dieser ist hilfreich, um Dinge an deinem Rucksack zu befestigen.
+Marin (audio): Nummer 30: Maybea-Messer. Dies wird für eine Vielzahl von Aufgaben hilfreich sein.
+Marin (audio): Nummer 31: Ein Buch. Das wird dir helfen, die Zeit zu vertreiben.
+Marin (audio): Nummer 32: Ein Kartenspiel. Damit kannst du dir die Zeit vertreiben.
+Marin (audio): Nummer 33: Eine Hängematte. Das wird ein bequemer Ort zum Entspannen sein.
+Marin (audio): Nummer 34: Eine Angelrute. Damit kannst du dein Abendessen fangen.
+Marin (audio): Nummer 35: Ein Fischernetz. Damit kannst du Fische fangen.
+Marin (audio): Nummer 36: Eine Angelkiste. Damit können Sie Ihr Angelzubehör aufbewahren.
+Marin (audio): Nummer 37: Ein Angelschein. Dies wird in einigen Gebieten erforderlich sein.
+Marin (audio): Nummer 38: Eine Waffe. Damit können Sie sich selbst schützen.
+Marin (audio): Nummer 39: Ein Messer. Damit können Sie sich selbst schützen.
+Marin (audio): Nummer 40: Ein Bärenhorn. Damit kannst du Tiere verscheuchen.
+Marin (audio): Nummer 41: Bärenspray. Das wird Ihnen helfen, Tiere abzuschrecken.
+Marin (audio): Nummer 42: Ein Schlangenbiss-Set. Das wird Ihnen helfen, wenn Sie von einer Schlange gebissen werden.
+Marin (audio): Nummer 43: Wanderschuhe. So können Sie bequem wandern.
+Marin (audio): Nummer 44: Ein Rucksack. Damit kannst du deine Sachen tragen.
+Marin (audio): Nummer 45: Ein Campingstuhl. Damit kannst du dich am Lagerfeuer entspannen.
+Marin (audio): Nummer 46: Ein Lagerfeuer. Das spendet Wärme und Licht.
+Marin (audio): Nummer 47: Brennholz. Dieses Holz wird für das Lagerfeuer verwendet.
+Marin (audio): Nummer 48: Streichhölzer. Damit kannst du dein Lagerfeuer anzünden.
+Marin (audio): Nummer 49: Eine Taschenlampe. Damit können Sie nachts besser sehen.
+Marin (audio): Nummer 50: Batterien. Diese werden Ihre Taschenlampe mit Strom versorgen.
+Marin (audio): Wenn ich Ihnen einen Tipp geben müsste, dann wäre es, mehr als eine Taschenlampe mitzunehmen. Und Batterien. Und vergiss nicht: Wasser, Essen und Sonnenschutzmittel. Alles klar? Du fragst, was ist, wenn du nicht alles mitnehmen kannst? Dann gehen Sie nicht zelten.
+Kriemhild (audio): Hast du alles mitgebracht, Marin?
+Luzia (audio): Ja, zeig uns, was du mitgebracht hast.
+Marin (audio): Oh, richtig. Äh, mal sehen. Ich habe mein Zelt, meinen Schlafsack, meinen Campingkocher, meine Kühlbox, meine Laterne, meine Taschenlampe, meine Batterien, mein Insektenspray, meinen Sonnenschutz, meinen Hut, mein Wasser, mein Essen, meine Kochutensilien, meine Karte, meinen Kompass, meinen Erste-Hilfe-Kasten, meine Pfeife, meine Süßigkeiten, meine Kamera, mein Handy-Ladegerät, meine Ersatzkleidung, meine Toilettenartikel, mein Handtuch, meine Plane, meine Schaufel, mein Seil, mein Klebeband, mein Karabiner, mein Messer, mein Buch, mein Kartenspiel, meine Hängematte, meine Angelrute, mein Fischernetz, mein Angelkasten, mein Angelschein, mein Gewehr, mein Bärenhorn, mein Bärenspray, mein Schlangenbiss-Set, meine Wanderschuhe, mein Rucksack und mein Campingstuhl.
+Luzia (audio): Wow, du hast wirklich alles mitgebracht!
+Kriemhild (audio): Sie haben das Wichtigste vergessen!
+Marin (audio): Wie?
+Kriemhild (audio): Die Marshmallows!
+Luzia (audio): Was zum Teufel, Marin, warum hast du keine Marshmallows mitgebracht?
+Marin (audio): I... Ich habe nicht daran gedacht.
+Kriemhild (audio): Sie haben nicht daran gedacht? Was wäre das für ein Campingausflug ohne Marshmallows?
+Luzia (audio): Dies ist eine Katastrophe.
+Stage Directions (audio): Kriemhild und Luzia beginnen mit dem Aufbau ihrer Zelte, während Marin niedergeschlagen zusieht.
