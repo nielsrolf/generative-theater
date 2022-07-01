@@ -24,6 +24,9 @@ voices = {
     "Kriemhild": "Yannick"
 }
 
+
+CHAR_LIMIT = 900
+
 @dataclass
 class Part:
     """Class for one part of the story - i.e. one line of the script
@@ -43,9 +46,14 @@ class Part:
     
     @staticmethod
     def parse(raw: str):
-        actor, raw = raw.split(" (", 1)
-        media, text = raw.split("): ", 1)
-        text = text.strip()
+        if "):" in raw:
+            actor, raw = raw.split(" (", 1)
+            media, text = raw.split("): ", 1)
+            text = text.strip()
+        else:
+            actor, text = raw.split(":", 1)
+            media = "audio"
+            text = text.strip()
         return Part(raw, actor, media, text, False, voices.get(actor, "Anna"))
     
     def __str__(self):
@@ -93,27 +101,68 @@ class Part:
 #     return story
 
 
-def fill_template_gpt3(parts: List[Part]) -> List[Part]:
+def fill_template_gpt3(parts: List[Part], min_length=10000) -> List[Part]:
     """Replace <generate> with generated text from GPT"""
     openai.api_key = os.getenv("OPENAI_API_KEY")
     story = []
     for i, part in enumerate(parts):
         if part.text == "<generate>":
-            prompt = create_prompt(story + [part])
+            prompt = create_prompt(story + [part])[-CHAR_LIMIT:]
             print(f"PROMPT: {prompt}", end="\n" + "-" * 80 + "\n")
-            response = openai.Completion.create(
+            try:
+                response = openai.Completion.create(
+                    model="davinci",
+                    prompt=prompt,
+                    temperature=0.7,
+                    max_tokens=1800,
+                    top_p=1,
+                    frequency_penalty=1,
+                    presence_penalty=0
+                )
+            except Exception as e:
+                print(f"Could not generate text: {type(e)}{e}")
+                breakpoint()
+                print(len(prompt))
+
+            text = response.choices[0].text.split("\n")#.split("\n")[0]
+            story.append(Part(part.raw, part.actor, part.media, text[0], True, part.voice))
+            for line in text[1:]:
+                try:
+                    story.append(Part.parse(line))
+                except:
+                    print(f"Could not parse line: {line}")
+                    continue
+        else:
+            story.append(part)
+    return continue_story(story, min_length)
+
+
+def continue_story(story: List[Part], min_length=10000) -> List[Part]:
+    """Continue the story with generated text from GPT"""
+    full_prompt = create_prompt(story)
+    while len(full_prompt) < min_length:
+        prompt = full_prompt[-CHAR_LIMIT:]
+        try:
+            text = openai.Completion.create(
                 model="davinci",
                 prompt=prompt,
                 temperature=0.7,
-                max_tokens=256,
+                max_tokens=1800,
                 top_p=1,
-                frequency_penalty=0,
+                frequency_penalty=1,
                 presence_penalty=0
-            )
-            text = response.choices[0].text.split("\n")[0]
-            story.append(Part(part.raw, part.actor, part.media, text, True, part.voice))
-        else:
-            story.append(part)
+            ).choices[0].text.split("\n")
+        except Exception as e:
+            print(f"Could not generate text: {type(e)}{e}")
+            breakpoint()
+            print(len(prompt))
+        for line in text[1:]:
+            try:
+                story.append(Part.parse(line))
+            except:
+                print(f"Could not parse line: {line}")
+                continue
+        full_prompt = create_prompt(story)
     return story
 
 
@@ -183,7 +232,7 @@ def translate(text: str, lang: str = "DE") -> str:
         translated_text {str} -- translated text
     """
     translator = deepl.Translator(secrets.DEEPL) 
-    result = translator.translate_text(text, target_lang=lang) 
+    result = translator.translate_text(text, target_lang=lang, formality="less") 
     translated_text = result.text
     return translated_text
 
@@ -197,7 +246,12 @@ def text_to_media(parts, play, generate_all, target):
         generate_all {bool} -- whether to generate all media
     """
     for i, part in tqdm(enumerate(parts)):
-        next_actor = parts[i + 1].actor if i < len(parts) - 1 else "Ende"
+        next_actor = parts[i + 1].actor if i < len(parts) - 1 else part.actor
+        if next_actor == part.actor:
+            hint = part.actor
+        else:
+            hint = f"{part.actor} zu {next_actor}"
+
         if not (part.generated or generate_all):
             continue
         if part.media == "audio":
@@ -207,7 +261,7 @@ def text_to_media(parts, play, generate_all, target):
                 if not play:
                     actor_dir = f"{target}/{part.actor}"
                     filename = os.path.join(actor_dir, f"/{i + 1}.mp3")
-                    system(f"say -v {part.voice} -o {filename} '{part.actor} zu {next_actor}: {text}'")
+                    system(f"say -v {part.voice} --data-format=LEF32@22050 -o {filename} '{hint}: {text}'")
                 else:
                     system(f"say -v {part.voice} '{part.actor} zu {next_actor}: {text}'")
     
@@ -232,7 +286,6 @@ def main(story_template: str, story_out: str, generate: bool = True, play: bool 
     generate = generate or generate_all
     os.makedirs(story_out, exist_ok=True)
     for chapter in glob(f"{story_template}*.txt"):
-        # breakpoint()
         target = chapter.replace(story_template, story_out).split(".txt")[0]
         if generate:
             template = parse_template(chapter)
