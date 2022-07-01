@@ -1,0 +1,13 @@
+Context (audio): Der folgende Text ist ein Dialog zwischen drei Personen: Luzia, Kriemhild und Marin. Sie diskutieren darüber, was das Wichtigste an einem bequemen Pyjama ist. Sie sind sich in vielen Punkten uneinig, und ihre Diskussion eskaliert zu einem großen Streit.Luzia (Audio):Das Wichtigste an einem bequemen Schlafanzug ist, dass er aus weichem, leichtem Material besteht, das dich die ganze Nacht kühl und bequem hält.Kriemhild (Audio):Das ist überhaupt nicht das Wichtigste! Das Wichtigste an einem bequemen Schlafanzug ist, dass er locker sitzt und die Haut atmen kann.Marin (audio):Ihr liegt beide falsch! Das Wichtigste an einem bequemen Schlafanzug ist, dass er aus natürlichen Fasern besteht, die Feuchtigkeit aufnehmen und dich die ganze Nacht über trocken halten.
+Luzia (audio): Ich sage es nur ungern, aber ich glaube, ihr liegt beide falsch. Das Wichtigste an einem bequemen Schlafanzug ist, dass er aus weichem, leichtem Material besteht, das dich die ganze Nacht über kühl und bequem hält.
+Kriemhild (audio): Das sagst du nur, weil du zu faul bist, dich um etwas anderes zu kümmern!
+Marin (audio): Und das sagst du nur, weil du zu eitel bist, um dich um etwas anderes zu kümmern!
+Luzia (audio): Ich glaube, wir sind uns alle einig, dass das Wichtigste an einem bequemen Schlafanzug ist, dass er aus weichem, leichtem Material besteht, das Sie die ganze Nacht über kühl und bequem hält.
+Marin (audio): Fick dich, Luzia.
+Kriemhild (audio): Du kannst mich auch mal, Marin.
+Luzia (audio): Ihr könnt mich beide mal. Ich gehe jetzt ins Bett.
+Context (audio): Plötzlich beginnt Kriemhild zu weinen.
+Luzia (audio): Oh, Kriemhild, weine nicht. Es tut mir leid, dass wir uns gestritten haben.
+Kriemhild (audio): Ich weine nicht, weil wir uns gestritten haben. Ich weine, weil ich erkannt habe, dass du Recht hast. Das Wichtigste an einem bequemen Schlafanzug ist, dass er aus weichem, leichtem Material besteht, das dich die ganze Nacht über kühl und bequem hält.
+Marin (audio): Fick dich, Kriemhild.
+Kriemhild (audio): Du kannst mich auch mal, Marin.

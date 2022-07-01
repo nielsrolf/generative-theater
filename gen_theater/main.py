@@ -155,6 +155,7 @@ def parse_template(story_file: str) -> List[Part]:
             try:
                 parts.append(Part.parse(line))
             except:
+                print(line)
                 parts[-1].text += line
     return parts
 
@@ -217,7 +218,7 @@ def text_to_media(parts, play, generate_all, target=None):
                     filename = os.path.join(actor_dir, f"/{i + 1}.mp3")
                     system(f"say -v {part.voice} -o {filename} '{part.actor} zu {next_actor}: {text}'")
                 if play:
-                    system(f"say -v {part.voice} '{part.actor} zu {next_actor}: {text}'")
+                    system(f"say -v {part.voice} '{part.actor[0]}: {text}'")
     
 
 @click.command()

@@ -9,8 +9,10 @@ Steps to generate:
 - open the `generative-theater` folder in a terminal
 - write the story template in the `/story` folder
 - run `python3 gen_theater/main.py story/ media/ --generate_all --play`
+Uebersetzen:
+- `python3 gen_theater/translate.py marin-camping/chapter1.txt`
 Abspielen:
-- `python3 gen_theater/play.py marin-camping/chapter1.txt`
+- `python3 gen_theater/play.py marin-camping/story_de.txt`
 
 Push your changes:
 ```

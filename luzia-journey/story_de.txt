@@ -1,0 +1,26 @@
+Context (audio): Luzia ist gerade an einem besonderen Ort in der Wüste angekommen. Sie brauchte dafür 18 Tage. Ein sehr langes Abenteuer, bei dem sie viele Menschen traf und ihre Reise viele Wendungen nahm. Sie wird ihre Reise erklären.
+Luzia (audio): Zuerst ging ich mit meinen Vorräten von zu Hause weg, hielt mich genau an die Karte, aber ich merkte schnell, dass die Wüste ganz anders war, als ich erwartet hatte: Die Hitze war unerträglich, und der Sand drang in alles ein.Ich hörte nicht auf ihn und ging weiter.Auf meiner Reise traf ich mehrere andere Menschen, von denen einige mir halfen und andere versuchten, mir zu schaden.Ich erzähle Ihnen, wen ich als nächstes traf:Am zweiten Tag traf ich eine Frau. Auch sie versuchte, die Wüste zu durchqueren. Sie war sehr müde und war schon seit Tagen unterwegs. Ich bot ihr etwas von meinem Wasser an, und wir unterhielten uns eine Weile. Sie erzählte mir, dass sie versuchte, zu ihrer Familie zu gelangen, die auf der anderen Seite der Wüste lebte, und dass sie schon seit Wochen unterwegs und sehr müde war. Ich bot ihr an, ihr zu helfen, aber sie sagte, dass sie es allein schaffen müsse. Sie sagte mir, dass sie es nie zu ihrer Familie schaffen würde, wenn ich ihr helfen würde. Ich hörte nicht auf sie und half ihr trotzdem. Wir liefen tagelang zusammen, bis wir endlich ihre Familie erreichten. Sie waren so glücklich, sie zu sehen, und nahmen mich in ihrem Haus auf. Auch er versuchte, die Wüste zu durchqueren. Er war sehr müde und schon seit Tagen unterwegs. Ich bot ihm etwas von meinem Wasser an, und wir unterhielten uns eine Zeit lang. Er erzählte mir, dass er versuchte, zu seiner Familie zu gelangen, die auf der anderen Seite lebte. Sie werden es nicht glauben, aber auch er versuchte, auf die andere Seite der Wüste zu gelangen! Wir liefen tagelang zusammen, bis wir endlich seine Familie erreichten. Sie freuten sich so sehr, ihn zu sehen, und nahmen mich in ihrem Haus auf. Ich blieb eine Weile bei ihnen, dann setzte ich meine Reise fort. Auch sie versuchte, die Wüste zu durchqueren. Sie war sehr müde und schon seit Tagen unterwegs. Ich bot ihr etwas von meinem Wasser an, und wir unterhielten uns eine Weile. Sie erzählte mir, dass sie versuchte, zu ihrer Familie zu gelangen, die auf der anderen Seite der Wüste lebte, und dass sie schon seit Wochen unterwegs und sehr müde war. Ich bot ihr an, ihr zu helfen, aber sie sagte, dass sie es allein schaffen müsse. Sie sagte mir, dass sie es nie zu ihrer Familie schaffen würde, wenn ich ihr helfen würde.Diesmal hörte ich auf sie und half ihr nicht.Ich setzte meine Reise fort und erreichte schließlich die andere Seite der Wüste.Es war eine sehr lange und schwierige Reise, aber ich habe es geschafft. Und hier bin ich nun, am heiligsten aller Orte: dem Sonnentempel.Ich werde euch etwas über den Sonnentempel erzählen:Der Sonnentempel ist ein ganz besonderer Ort. Es ist ein Ort, an dem die Sonne das ganze Jahr über scheint, egal, wie das Wetter draußen ist. Es ist ein Ort der Heilung, und viele Menschen kommen hierher, um zu beten und um Hilfe zu bitten.Ich werde hier eine Weile bleiben und mich ausruhen. Ich bin schon seit Tagen unterwegs und sehr müde. Ich werde hier bleiben, bis ich die Kraft habe, meine Reise fortzusetzen.
+Context (audio): Plötzlich beginnt der Boden zu beben, und Luzia merkt, dass sie nicht allein ist.
+Luzia (audio): Was geschieht hier?
+Context (audio): Es gibt ein lautes Geräusch, und dann erscheint ein Mann. Er trägt eine Kapuze und hat einen Stab in der Hand.
+Luzia (audio): Wer sind Sie? Was wollen Sie?
+Man (audio): Ich bin die Hüterin dieses Tempels. Ich bin hier, um ihn vor Schaden zu bewahren.
+Luzia (audio): Ich bin nicht hier, um dem Tempel zu schaden. Ich bin nur hier, um mich auszuruhen.
+Man (audio): Sie sind hier nicht willkommen. Sie müssen gehen.
+Luzia (audio): Bitte, lasst mich bleiben. Ich bin müde und muss mich ausruhen.
+Man (audio): Es tut mir leid, aber Sie müssen gehen.
+Luzia (audio): Na gut. Ich werde gehen.
+Context (audio): Luzia verlässt den Tempel und setzt ihre Reise fort. Sie ist müde und weiß nicht, wohin sie geht. Sie ist tagelang unterwegs und wird sehr müde. Sie kommt an eine Weggabelung und weiß nicht, welchen Weg sie einschlagen soll. Sie ist kurz davor, aufzugeben, als sie ein Licht in der...
+Man (audio): Atmet ein.
+Luzia (audio): Was ist das?
+Man (audio): Es ist das Licht des Tempels. Ihr müsst ihm folgen.
+Luzia (audio): Aber warum?
+Man (audio): Denn er wird dich zum Tempel führen.
+Luzia (audio): Ich danke Ihnen. Ich werde es befolgen.
+Context (audio): Luzia folgt dem Licht, und es führt sie zum Tempel. Sie ist müde und weiß nicht, was sie tun soll.
+Luzia (audio): Ist das der Tempel?
+Man (audio): Ja, das ist sie.
+Luzia (audio): Ich weiß nicht, was ich tun soll.
+Man (audio): You must enter.
+Luzia (audio): Und warum?
+Man (audio): Weil es Ihr Schicksal ist.

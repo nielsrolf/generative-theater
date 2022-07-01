@@ -1,0 +1,101 @@
+Context (audio): Der Dialog. Kriemhild und Luzia sitzen in der Wüste. Seit Wochen campen sie in der Wüste und haben seltsame Träume. Sie wissen noch nicht, warum das so ist, aber sie haben Alpträume von Cowboys bekommen. Darüber diskutieren sie. In der Mitte beginnen sie zu streiten. Am Ende wirst du nie glauben, warum das passiert.
+Luzia (audio): Kriemhild? Kannst du mich hören?
+Kriemhild (audio): Ja, ich kann Sie hören. Was ist denn los?
+Luzia (audio): Ich habe den seltsamsten Traum. Ein Cowboy ist hinter mir her und ich kann nicht entkommen.
+Kriemhild (audio): Das hört sich für mich nicht seltsam an. Ich habe auch Alpträume von Cowboys.
+Luzia (audio): Ja, wirklich? Ich dachte, ich wäre der Einzige.
+Kriemhild (audio): Nein, ich habe sie jetzt schon seit Wochen. Ich weiß nicht, warum, aber sie werden immer schlimmer.
+Luzia (audio): Glauben Sie, dass es etwas damit zu tun hat, warum wir hier sind?
+Kriemhild (audio): Ich weiß es nicht. Aber ich habe das Gefühl, dass wir es bald herausfinden werden.
+Luzia (audio): Warum haben Sie dieses Gefühl?
+Kriemhild (audio): Ich weiß es nicht. Ich habe einfach ein schlechtes Gefühl bei diesem Ort.
+Luzia (audio): Ich mag es auch nicht. Aber wir kampieren hier schon seit Wochen und haben noch kein einziges Lebenszeichen gesehen.
+Kriemhild (audio): Ich weiß. Aber ich kann mich des Gefühls nicht erwehren, dass wir beobachtet werden.
+Luzia (audio): Vielleicht sind wir das. Aber von wem?
+Kriemhild (audio): Ich weiß es nicht. Aber ich habe das Gefühl, dass wir es bald herausfinden werden.
+Stage Directions (audio): Plötzlich stellen sie fest: Sie werden von einer Gruppe von Cowboys beobachtet. Die Cowboys sind nicht erfreut, sie zu sehen und beginnen zu kämpfen. Kriemhild und Luzia sind zahlenmäßig und waffentechnisch unterlegen und haben keine Chance gegen die Cowboys. Sie werden gezwungen, sich zu ergeben, und werden gefangen genommen.
+Luzia (audio): Kriemhild, was ist hier los?
+Kriemhild (audio): Ich weiß es nicht. Aber ich habe das Gefühl, dass wir in großen Schwierigkeiten stecken.
+Luzia (audio): Und warum? Was glaubst du, was sie mit uns machen werden?
+Kriemhild (audio): Ich weiß es nicht. Aber ich habe das Gefühl, dass es nicht gut sein wird.
+Stage Directions (audio): Luzia keucht. Sie sieht aus, als wäre sie besessen, da sie so tief in einem Alptraum steckt.
+Kriemhild (audio): Luzia! Was ist mit dir los?
+Luzia (audio): mit tiefer Stimme: Die Cowboys kommen, um uns zu holen. Sie werden uns umbringen.
+Kriemhild (audio): Nein, das tun sie nicht. Uns wird es gut gehen. Bleib einfach ruhig.
+Luzia (audio): mit tiefer Stimme: Sie kommen immer näher. Ich kann sie hören. Sie werden uns umbringen.
+Kriemhild (audio): Luzia, reiß dich am Riemen!
+Luzia (audio): mit tiefer Stimme: Sie sind fast da. Ich kann sie hören. Sie kommen, um uns zu töten.
+Stage Directions (audio): Kriemhild sieht die Cowboys plötzlich auch vor ihrem geistigen Auge.
+Kriemhild (audio): Oh nein. Sie werden kommen. Wir müssen fliehen!
+Luzia (audio): mit tiefer Stimme: Es ist zu spät. Sie sind da.
+Stage Directions (audio): Kriemhild erzählt in Echtzeit, was dann passiert:Kriemhild (Audio):Die Cowboys holen uns ein und beginnen zu kämpfen. Wir sind zahlenmäßig und waffentechnisch unterlegen, und wir haben keine Chance. Wir sind gezwungen, uns zu ergeben und werden gefangen genommen.
+Luzia (audio): mit tiefer Stimme: Was werden sie mit uns machen?
+Kriemhild (audio): mit tiefer Stimme: Ich weiß es nicht. Aber ich habe das Gefühl, dass es nicht gut sein wird.
+Context (audio): Plötzlich betritt Marin die Szene.
+Kriemhild (audio): Marin! Was machst du denn hier?
+Marin (audio): Ich bin gekommen, um Sie zu warnen. Ihr seid in Gefahr.
+Kriemhild (audio): Was soll das heißen?
+Marin (audio): Die Cowboys werden kommen. Sie werden dich umbringen.
+Kriemhild (audio): Woher wissen Sie das?
+Marin (audio): Ich hatte eine Vision. Du musst jetzt gehen, bevor es zu spät ist.
+Kriemhild (audio): Aber wir können nicht einfach gehen. Wir müssen herausfinden, was hier los ist.
+Marin (audio): Wir haben keine Zeit mehr. Du musst jetzt gehen.
+Kriemhild (audio): Aber was ist mit Luzia?
+Marin (audio): Ich kümmere mich um sie. Geh einfach!
+Kriemhild (audio): Okay. Sei vorsichtig.
+Marin (audio): Das werde ich. Und jetzt geh!
+Context (audio): Kriemhild geht, und Marin bleibt zurück, um Luzia zu beschützen. Luzia hat immer noch den Traum
+Luzia (audio): mit tiefer Stimme: Sie kommen immer näher. Ich kann sie hören. Sie werden uns umbringen.
+Marin (audio): Luzia, reiß dich am Riemen!
+Luzia (audio): mit tiefer Stimme: Sie sind fast da. Ich kann sie hören. Sie kommen, um uns zu töten.
+Marin (audio): Luzia, wach auf!
+Context (audio): Luzia wacht mit einem Schreck auf.
+Luzia (audio): Was ist passiert?
+Marin (audio): Du hattest einen Albtraum.
+Luzia (audio): Wirklich? Ich erinnere mich nicht.
+Marin (audio): Du hast geschrien und gebrüllt. Ich musste dich schütteln, um dich aufzuwecken.
+Luzia (audio): Wow! Das tut mir leid.
+Marin (audio): Ist ja gut. Ich bin nur froh, dass du wach bist.
+Luzia (audio): Wie spät ist es?
+Marin (audio): Es dämmert fast.
+Luzia (audio): Wir sollten uns auf den Weg machen.
+Marin (audio): Na gut. Lass mich nur Kriemhild aufwecken.
+Context (audio): Marin weckt Kriemhild auf und sie beginnen, ihr Lager abzubauen.
+Kriemhild (audio): Was ist hier los?
+Marin (audio): Wir müssen weg. Die Cowboys kommen.
+Kriemhild (audio): Woher wissen Sie das?
+Marin (audio): Ich hatte eine Vision.
+Kriemhild (audio): Na gut. Los geht's.
+Stage Directions (audio): Sie brechen ihr Lager ab und machen sich auf den Weg. Als sie gehen, werden sie von den Cowboys entdeckt.
+Kriemhild (audio): Oh nein. Sie haben uns gesehen.
+Marin (audio): Lauft!
+Stage Directions (audio): Sie beginnen zu fliehen, werden aber schnell von den Cowboys eingeholt.
+Kriemhild (audio): Wir sind dem Untergang geweiht.
+Marin (audio): Nein, werden wir nicht. Ich werde nicht zulassen, dass sie dir wehtun.
+Stage Directions (audio): Marin versucht, Kriemhild zu beschützen, aber sie wird schnell von den Cowboys getötet. Kriemhild bleibt allein und verängstigt zurück. Die Cowboys nähern sich ihr immer mehr an.
+Kriemhild (audio): Nein! Bitte tun Sie mir nicht weh.
+Context (audio): Kriemhild wacht schreiend aus dem Albtraum auf.
+Kriemhild (audio): Was war das?
+Luzia (audio): Du hattest einen Albtraum.
+Kriemhild (audio): Wirklich? Ich erinnere mich nicht.
+Luzia (audio): Du hast geschrien und gebrüllt. Ich musste dich schütteln, um dich aufzuwecken.
+Kriemhild (audio): Wow! Das tut mir leid.
+Luzia (audio): Ist ja gut. Ich bin nur froh, dass du wach bist.
+Kriemhild (audio): Wie spät ist es?
+Luzia (audio): Es dämmert fast.
+Kriemhild (audio): Wir sollten uns auf den Weg machen.
+Luzia (audio): Ja, gut. Lass mich nur Marin aufwecken.
+Context (audio): Luzia versucht, Marin zu wecken, aber sie ist nicht ansprechbar.
+Luzia (audio): Marin? Marin, wach auf.
+Stage Directions (audio): Luzia beginnt, Marin zu schütteln, aber sie wacht nicht auf.
+Luzia (audio): Marin, wach auf!
+Stage Directions (audio): Luzia beginnt zu weinen, als sie erfährt, dass Marin tot ist.
+Kriemhild (audio): Oh nein. Marin ist tot.
+Luzia (audio): Was werden wir jetzt tun?
+Kriemhild (audio): Wir müssen einen Weg finden, von hier wegzukommen.
+Luzia (audio): Aber wie? Wir sind zahlenmäßig und waffentechnisch unterlegen.
+Kriemhild (audio): Ich weiß es nicht. Aber wir müssen es versuchen. Wir können nicht einfach aufgeben.
+Luzia (audio): Also gut. Was soll ich tun?
+Kriemhild (audio): Ich werde versuchen, sie abzulenken. Sieh zu, dass du einen Weg findest, um zu entkommen.
+Luzia (audio): Okay. Sei vorsichtig.
+Kriemhild (audio): Das werde ich.

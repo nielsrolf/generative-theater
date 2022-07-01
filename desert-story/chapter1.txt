@@ -1,0 +1,190 @@
+Context (audio): Three people are stumbling through the desert. What do they talk about?The first person might talk about how hot it is and how they are thirsty. The second person might talk about how they are tired and how their feet hurt. The third person might talk about how they are homesick and how they miss their family. Here is a theater script, where the three people have the discussion outlined above:
+
+Luzia (audio): Ugh, it's so hot out here. I'm so thirsty.
+
+Marin (audio): I know. I'm so tired. My feet hurt.
+
+Kriemhild (audio): I can't believe we're stuck out here. I miss my family.
+
+Luzia (audio): We'll make it through. We have to.
+
+Marin (audio): I hope so. I don't know how much more of this I can take.
+
+Kriemhild (audio): Me either. But we have to stay positive.
+
+Context (audio): Suddenly, 
+
+Kriemhild (audio): Hey, what's that over there?
+
+Luzia (audio): What?
+
+Kriemhild (audio): There, on the horizon.
+
+Luzia (audio): I don't see anything.
+
+Kriemhild (audio): It looks like a mirage.
+
+Marin (audio): A mirage?
+
+Kriemhild (audio): Yeah, you know, like an optical illusion.
+
+Luzia (audio): Let's go check it out.
+
+Kriemhild (audio): Maybe it's a oasis!
+
+Marin (audio): I hope so. I'm so thirsty.
+
+Luzia (audio): Me too. Let's go!
+
+Kriemhild (audio): Wait, what if it's not a mirage?
+
+Luzia (audio): Then we'll deal with that when we get there. Come on!
+
+Kriemhild (audio): Okay.
+
+Context (audio): They go to check it out and find that it is in fact a mirage.
+
+Luzia (audio): I can't believe it.
+
+Kriemhild (audio): I told you it was a mirage.
+
+Marin (audio): I can't believe we wasted all that energy for nothing.
+
+Luzia (audio): At least we know for sure now.
+
+Kriemhild (audio): I guess that's something.
+
+Marin (audio): I don't know about you guys, but I'm going to take a rest.
+
+Luzia (audio): Yeah, me too.
+
+Kriemhild (audio): Okay.
+
+Context (audio): Things take a turn. Murder.
+
+Luzia (audio): I can't believe we're stuck out here.
+
+Marin (audio): I know. I'm so tired. My feet hurt.
+
+Kriemhild (audio): I can't believe we're stuck out here. I miss my family.
+
+Luzia (audio): We'll make it through. We have to.
+
+Marin (audio): I hope so. I don't know how much more of this I can take.
+
+Kriemhild (audio): Me either. But we have to stay positive.
+
+Luzia (audio): Hey, what's that over there?
+
+Kriemhild (audio): What?
+
+Luzia (audio): There, on the horizon.
+
+Kriemhild (audio): It looks like a mirage.
+
+Marin (audio): A mirage?
+
+Kriemhild (audio): Yeah, you know, like an optical illusion.
+
+Luzia (audio): Let's go check it out.
+
+Kriemhild (audio): Maybe it's a oasis!
+
+Marin (audio): I hope so. I'm so thirsty.
+
+Luzia (audio): Me too. Let's go!
+
+Kriemhild (audio): Wait, what if it's not a mirage?
+
+Luzia (audio): Then we'll deal with that when we get there. Come on!
+
+Kriemhild (audio): Okay.
+
+Context (audio): They go to check it out and find that it is in fact a mirage.
+
+Luzia (audio): I can't believe it.
+
+Kriemhild (audio): I... I... need... water...
+
+Marin (audio): I can't believe we wasted all that energy for nothing.
+
+Luzia (audio): At least we know for sure now.
+
+Kriemhild (audio): I... can't... breathe...
+
+Marin (audio): What's wrong with her?
+
+Luzia (audio): I don't know. She's not responding.
+
+Marin (audio): We have to help her!
+
+Luzia (audio): Okay, okay. Calm down. Let's think this through.
+
+Kriemhild (audio): ...
+
+Luzia (audio): We don't have any water. If we give her our water, we'll die too.
+
+Marin (audio): But we can't just let her die!
+
+Luzia (audio): I know, but what else can we do?
+
+Marin (audio): ...
+
+Luzia (audio): We have to make a decision. We can't just sit here.
+
+Marin (audio): Okay. You're right.
+
+Luzia (audio): What do you want to do?
+
+Marin (audio): Shit.
+
+Luzia (audio): We have to decide, Marin.
+
+Marin (audio): ...
+
+Luzia (audio): What do you want to do?
+
+Marin (audio): ...
+
+Luzia (audio): What do you want to do, Marin?!
+
+Marin (audio): ...
+
+Luzia (audio): Fine. I'll do it.
+
+Marin (audio): What?
+
+Luzia (audio): I'll give her my water. You can have mine too.
+
+Marin (audio): No, I can't let you do that!
+
+Luzia (audio): It's okay. I'm not going to make it anyway.
+
+Marin (audio): What are you talking about?
+
+Luzia (audio): I'm dying, Marin. I'm not going to make it.
+
+Marin (audio): No, you're not!
+
+Luzia (audio): Yes, I am. But at least this way, she has a chance.
+
+Marin (audio): Luzia, no!
+
+Luzia (audio): It's okay. I'm ready.
+
+Context (audio): She gives Kriemhild her water and then dies.
+
+Marin (audio): Luzia!
+
+Kriemhild (audio): ...
+
+Marin (audio): Luzia, wake up!
+
+Kriemhild (audio): ...
+
+Marin (audio): Oh, god. Luzia.
+
+Kriemhild (audio): ...
+
+Marin (audio): What have I done?
+ 

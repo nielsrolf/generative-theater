@@ -10,8 +10,10 @@ def main(story: str):
     Arguments:
         story: path to the ready text file
     """
-    story_de = parse_template(story)
-    text_to_media(story_de, True, True)
+    story_en = parse_template(story)
+    story_de = translate_parts(story_en)
+    target = os.path.dirname(os.path.realpath(story))
+    write_parts(story_de, target, "story_de.txt")
 
 
 if __name__ == "__main__":

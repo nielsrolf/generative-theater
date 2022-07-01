@@ -1,0 +1,211 @@
+Context (audio): Kriemhild and Marin are fighting about how to start a campfire.
+
+Kriemhild (audio): NO. You just put the wood in a pile and then you light it on fire. Everyone knows that.
+
+Marin (audio): NO. You have to make a teepee out of the wood first and then light it on fire. That's the only way it will work.
+
+Kriemhild (audio): You're crazy. That's not how you do it.
+
+Marin (audio): Yes, it is. I saw it on TV.
+
+Kriemhild (audio): What do you mean a teepee?! Show me.
+
+Marin (audio): Like this.
+
+Context (audio): Marin is showing Kriemhild how to make a teepee out of the wood.
+
+Kriemhild (audio): Oh, I see. That does make more sense.
+
+Marin (audio): See? I told you.
+
+Kriemhild (audio): But why didn't you just tell me that in the first place?
+
+Marin (audio): I don't know. I guess I just wanted to see if you knew how to do it.
+
+Kriemhild (audio): Why would you want to see that?
+
+Marin (audio): I don't know. I just thought it would be funny if you didn't know how to do it.
+
+Kriemhild (audio): That's not funny. That's mean.
+
+Marin (audio): I'm sorry. I didn't mean to be mean. I was just joking around.
+
+Kriemhild (audio): Well, don't joke around like that. It's not funny.
+
+Marin (audio):  Is too.
+
+Kriemhild (audio): Is not.
+
+Marin (audio): Is too.
+
+Kriemhild (audio): Is not.
+
+Marin (audio): Is too.
+
+Kriemhild (audio): Is not.
+
+Marin (audio): Is too.
+
+Kriemhild (audio): Is not.
+
+Marin (audio): Is too.
+
+Kriemhild (audio): Is not.
+
+Marin (audio): Is too.
+
+Kriemhild (audio): Is not.
+
+Marin (audio): Is too.
+
+Kriemhild (audio): Is not.
+
+Marin (audio): Is too.
+
+Kriemhild (audio): Is not.
+
+Marin (audio): Is too.
+
+Kriemhild (audio): Is not.
+
+Marin (audio): Is too.
+
+Kriemhild (audio): Is not.
+
+Marin (audio): Is too.
+
+Kriemhild (audio): Is not.
+
+Marin (audio): Is too.
+
+Kriemhild (audio): You're just being stubborn now.
+
+Marin (audio): No, I'm not. I'm just trying to prove that you're wrong.
+
+Kriemhild (audio): I am not wrong.
+
+Marin (audio): Yes, you are.
+
+Kriemhild (audio): No, I'm not.
+
+Marin (audio): Yes, you are.
+
+Kriemhild (audio): No, I'm not.
+
+Marin (audio): Yes, you are.
+
+Kriemhild (audio): No, I'm not.
+
+Marin (audio): Yes, you are.
+
+Kriemhild (audio): No, I'm not.
+
+Marin (audio): Yes, you are.
+
+Kriemhild (audio): No, I'm not.
+
+Marin (audio): Yes, you are.
+
+Kriemhild (audio): No, I'm not.
+
+Marin (audio): Yes, you are.
+
+Kriemhild (audio): No, I'm not.
+
+Marin (audio): Yes, you are.
+
+Kriemhild (audio): I am not wrong.
+
+Marin (audio): Yes, you are.
+
+Kriemhild (audio): No, I'm not.
+
+Marin (audio): Yes, you are.
+
+Kriemhild (audio): No, I'm not.
+
+Marin (audio): Yes, you are.
+
+Kriemhild (audio): No, I'm not.
+
+Marin (audio): Yes, you are.
+
+Kriemhild (audio): No, I'm not.
+
+Marin (audio): Yes, you are.
+
+Kriemhild (audio): No, I'm not.
+
+Marin (audio): Yes, you are.
+
+Kriemhild (audio): No, I'm not.
+
+Marin (audio): Yes, you are.
+
+Kriemhild (audio): No, I'm not.
+
+Marin (audio): Yes, you are.
+
+Kriemhild (audio): No, I'm not.
+
+Marin (audio): Yes, you are.
+
+Kriemhild (audio): No, I'm not.
+
+Kriemhild (audio): Marin, I'm not wrong.
+
+Marin (audio): Yes, you are.
+
+Kriemhild (audio): How do we end this scene?
+
+Marin (audio): We could have Kriemhild finally admit that she's wrong and apologize to Marin.
+
+Kriemhild (audio): Please give me an alternative ending.
+
+Marin (audio): We could have Kriemhild get mad and walk away from Marin.
+
+Kriemhild (audio): Is that even an option?
+
+Marin (audio): I don't know. Is it?
+
+Kriemhild (audio): Luzia, please come over here.
+
+Luzia (audio): What's going on?
+
+Kriemhild (audio): Marin is being stubborn and won't admit that I'm right about how to start a campfire.
+
+Luzia (audio): Well, let me talk to her. Maybe I can reason with her.
+
+Kriemhild (audio): Thank you.
+
+Luzia (audio): Marin, what's the problem?
+
+Marin (audio): Kriemhild is being stubborn and won't admit that I'm right about how to start a campfire.
+
+Luzia (audio): Well, let's try to work this out. Kriemhild, you want to start the fire by building a teepee, right?
+
+Kriemhild (audio): Yes.
+
+Luzia (audio): And Marin, you want to start the fire by just piling the wood and lighting it, right?
+
+Marin (audio): Yes.
+
+Luzia (audio): Well, why don't we try doing both? We can build the teepee and then light it.
+
+Marin (audio): That's a good idea.
+
+Kriemhild (audio): Yes, let's try it.
+
+Luzia (audio): See? We can all be happy if we just try to work together.
+
+Context (audio): Suddenly, they hear a noise in the distance.
+
+Kriemhild (audio): What was that?
+
+Luzia (audio): I don't know. It sounded like something is coming this way.
+
+Kriemhild (audio): Should we hide?
+
+Luzia (audio): Yes, let's hide.
+
+Context (audio): They hide behind some bushes and wait to see what is coming.
