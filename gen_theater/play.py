@@ -4,7 +4,7 @@ import os
 
 @click.command()
 @click.argument("story", type=click.Path(exists=True))
-@click.argument("target", type=click.Path())
+@click.option("--target", type=click.Path(), default=None)
 def main(story: str, target: str = None):
     """Iterate through all chapter and generate media
     

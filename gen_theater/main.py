@@ -304,7 +304,7 @@ def text_to_media(parts, play, generate_all, target=None):
                     os.makedirs(actor_dir, exist_ok=True)
                     system(f"say -o {filename} --data-format=LEF32@22050 '{text}'")
                 if play:
-                    actor_short = shortnames[part.actor.lower()]
+                    actor_short = shortnames.get(part.actor.lower(), part.actor)
                     system(f"say -v {part.voice} '{actor_short}: {text}'")
     
 
