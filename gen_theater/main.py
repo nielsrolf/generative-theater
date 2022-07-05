@@ -8,6 +8,7 @@ import openai
 import deepl 
 import click
 from tqdm import tqdm
+import time
 
 
 from gen_theater import secrets
@@ -52,6 +53,9 @@ class Part:
     
     @staticmethod
     def parse(raw: str):
+        if raw.startswith("PAUSE"):
+            seconds = raw.strip().split("PAUSE ")[1][:-1]
+            return Part(raw, "BREAK", "", seconds, False, "Anna")
         if "):" in raw:
             actor, raw = raw.split(" (", 1)
             media, text = raw.split("): ", 1)
@@ -287,6 +291,10 @@ def text_to_media(parts, play, generate_all, target=None):
     """
     for i, part in tqdm(enumerate(parts)):
         next_actor = parts[i + 1].actor if i < len(parts) - 1 else part.actor
+        if part.actor == "BREAK":
+            print(part)
+            time.sleep(int(part.text))
+            continue
         if next_actor == part.actor:
             hint = part.actor
         else:
