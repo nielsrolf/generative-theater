@@ -1,8 +1,11 @@
 import styled from "@emotion/styled";
 import { Button } from "@mui/material";
 import { useEffect, useState } from "react";
+import Switch from "../components/Switch";
 import { useMIDIOutput } from "../hooks/useMidiOutput";
 
+// 0 db
+const MAX_VOLUME = 104;
 
 
 const AudioScreen = props => {
@@ -12,30 +15,35 @@ const AudioScreen = props => {
     const [ selectedOutput, setSelectedOutput ] = useState({ name: 'default' });
   
     const [ currentFile, setCurrentFile ] = useState(0);
-  
+    const [ AutoPlay, setAutoPlay ] = useState(0)
     
     useEffect(()=>{
+
       
       const AudioElement = document.getElementById('track01');
       
       function handleOutputChange(channel){
         if (!channel) return;
-      
+        
         if (selectedOutput) {
           cc(0, selectedOutput, 9);
+          cc(0, selectedOutput + 1, 9);
           setSelectedOutput(channel);
-          cc(127, channel, 9);
+          cc(MAX_VOLUME, channel, 9);
+          cc(MAX_VOLUME, channel + 1, 9);
         };
-        
+        console.log(channel)
         setSelectedOutput(channel);
-        cc(127, channel, 9);
+        cc(104, channel, 9);
+        cc(104, channel + 1, 9);
       }
-  
+      
       handleOutputChange(files[currentFile].output)
+      if (!AutoPlay) return;
       document.getElementById(files[currentFile].src).scrollIntoView({behavior: "smooth", block: "center"});
       AudioElement.play();
   
-    },[currentFile])
+    },[currentFile, AutoPlay])
     
     
   
@@ -59,6 +67,7 @@ const AudioScreen = props => {
       </div>
         <p children={`Track source: ${files[currentFile].src}`}/>
         <p children={`Track index: ${currentFile}`}/>
+        <Switch label='Auto-Play' callback={() => setAutoPlay(state => !state)} value={AutoPlay}/>
         </div>
 
       <FileListContainer>

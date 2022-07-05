@@ -9,8 +9,7 @@ const SettingsScreen = props => {
         outputs, 
         midiOutput, 
         handleChangeMidiOutput } = props
-  
-  
+
     return <Box>
       <Typography id="modal-modal-title" variant="h6" component="h2">
         Select your soundcard.

@@ -11,7 +11,7 @@ function App() {
   const files = [
     ...Array(10).fill({src:'', name: ''}).map(
     (file, index) => ({ src:`assets/L${index+1}.wav`, output: 102 }) ), 
-    ...Array(1).fill({ src:'assets/C1.wav', output: 103 })
+    ...Array(1).fill({ src:'assets/C1.wav', output: 104 })
   ];
 
   const AudioDevice = useAudioDevice()
