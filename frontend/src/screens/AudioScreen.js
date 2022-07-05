@@ -32,10 +32,10 @@ const AudioScreen = props => {
           cc(MAX_VOLUME, channel, 9);
           cc(MAX_VOLUME, channel + 1, 9);
         };
-        console.log(channel)
+        // console.log(channel)
         setSelectedOutput(channel);
-        cc(104, channel, 9);
-        cc(104, channel + 1, 9);
+        cc(MAX_VOLUME, channel, 9);
+        cc(MAX_VOLUME, channel + 1, 9);
       }
       
       handleOutputChange(files[currentFile].output)
@@ -61,9 +61,9 @@ const AudioScreen = props => {
         src={files[currentFile]?.src}  
         id='track01'>  
       </audio>
-      <div>
-        <Button children='Previous Track' variant='outlined' onClick={handlePrevious} disabled={!currentFile} />
-        <Button children='Next Track' variant='outlined' onClick={handleNext} />
+      <div style={{display: 'flex', width: '100%', justifyContent: 'center'}}>
+        <Button children='<' size='small' onClick={handlePrevious} disabled={!currentFile} />
+        <Button children='>' onClick={handleNext} />
       </div>
         <p children={`Track source: ${files[currentFile].src}`}/>
         <p children={`Track index: ${currentFile}`}/>
