@@ -39,8 +39,8 @@ const AudioScreen = props => {
       }
       
       handleOutputChange(files[currentFile].output)
-      if (!AutoPlay) return;
       document.getElementById(files[currentFile].src).scrollIntoView({behavior: "smooth", block: "center"});
+      if (!AutoPlay) return;
       AudioElement.play();
   
     },[currentFile, AutoPlay])
