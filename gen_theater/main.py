@@ -9,6 +9,7 @@ import deepl
 import click
 from tqdm import tqdm
 import time
+import json
 
 
 from gen_theater import secrets
@@ -30,6 +31,14 @@ shortnames = {
     "kriemhild": "ki",
     "luzia": "lu",
     "marin": "x",
+}
+
+CHANNELS = {
+    "Luzia": 102,
+    "Marin": 104,
+    "Kriemhild": 103,
+    "Stage directions": 101,
+    "Context": 0
 }
 
 CHAR_LIMIT = 900
@@ -289,11 +298,20 @@ def text_to_media(parts, play, generate_all, target=None):
         play {bool} -- whether to play the generated media
         generate_all {bool} -- whether to generate all media
     """
+    medias = []
     for i, part in tqdm(enumerate(parts)):
         next_actor = parts[i + 1].actor if i < len(parts) - 1 else part.actor
         if part.actor == "BREAK":
             print(part)
-            time.sleep(int(part.text))
+            if play:
+                time.sleep(int(part.text))
+            medias.append(
+                {
+                    "src": "",
+                    "text": part.text,
+                    "output": ""
+                }
+            )
             continue
         if next_actor == part.actor:
             hint = part.actor
@@ -307,13 +325,21 @@ def text_to_media(parts, play, generate_all, target=None):
             text = part.text.replace("'", "")
             if part.generated or generate_all:
                 if target is not None:
-                    actor_dir = f"{target}/{part.actor}"
-                    filename = os.path.join(actor_dir, f"{i + 1}.wav")
-                    os.makedirs(actor_dir, exist_ok=True)
+                    filename = f"{target}/{part.actor}/{i + 1}.wav"
+                    src = f"{part.actor}/{i + 1}.wav"
+                    medias.append({
+                        "src": src,
+                        "text": text,
+                        "output": CHANNELS[part.actor]
+                    })
+                    os.makedirs(f"{target}/{part.actor}", exist_ok=True)
                     system(f"say -o {filename} --data-format=LEF32@22050 '{text}'")
                 if play:
                     actor_short = shortnames.get(part.actor.lower(), part.actor)
                     system(f"say -v {part.voice} '{actor_short}: {text}'")
+    if target is not None:
+        with open(f"{target}/medias.json", "w") as f:
+            json.dump(medias, f)
     
 
 @click.command()
@@ -347,6 +373,7 @@ def main(story_template: str, story_out: str, generate: bool = True, play: bool 
         else:
             story_de = parse_template(f"{target}/story_de.txt")
             text_to_media(story_de, play, True, target)
+    
 
 
 if __name__ == "__main__":
